@@ -1,3 +1,6 @@
+import re
+
+
 from typing import Dict, List, Tuple, Union
 
 
@@ -6,20 +9,11 @@ Directory = Dict[str, Union[bool, 'Directory']]
 
 
 def to_directory(string: str) -> Directory:
-	dir = {}
-
-	first, *lines = string.split('\n')
-	current = (first, [])
-	for line in lines:
-		if line.startswith('\t'):
-			current[1].append(line)
-			continue
-
-		dir[current[0]] = True if '.' in current[0] else {} if not (value_str := '\n'.join(vline.replace('\t', '', 1) for vline in current[1])) else to_directory(value_str)
-		current = (line, [])
-	dir[current[0]] = True if '.' in current[0] else {} if not (value_str := '\n'.join(vline.replace('\t', '', 1) for vline in current[1])) else to_directory(value_str)
-
-	return dir
+	children = re.split(r'^([a-z0-9\.]*)$', string, flags=re.MULTILINE + re.IGNORECASE)[1:]
+	return {
+		(key := children[i]): True if '.' in key else {} if not (value := children[i+1].replace('\n\t', '\n').strip()) else to_directory(value)
+		for i in range(0, int(len(children)/2) + 1, 2)
+	}
 
 
 def longest_absolute_path(dir: Directory) -> str:
