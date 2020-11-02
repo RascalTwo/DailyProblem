@@ -52,7 +52,7 @@ class XORLinkedList(Generic[T]):
 
 
 POINTERS: Dict[int, Node[Any]] = {}
-def get_pointer(pointer: int) -> Optional[Node[T]]:
+def get_pointer(pointer: int) -> Optional[Node[Any]]:
 	return POINTERS.get(pointer, None)
 def dereference_pointer(node: Node[T]) -> Node[T]:
 	POINTERS[id(node)] = node

@@ -2,7 +2,7 @@ import random
 import statistics
 
 
-from typing import Iterable, TypeVar
+from typing import DefaultDict, Iterable, TypeVar
 
 
 
@@ -15,6 +15,7 @@ def solve(stream: Iterable[T]) -> T:
 		if i == 0 or not random.randrange(i):
 			chosen = element
 
+	assert chosen
 	return chosen
 
 

@@ -1,16 +1,15 @@
 class OrderRecorder:
 	def __init__(self, max_orders: int):
 		self.max_orders = max_orders
-		self.last = 0
+		self.last = 1
 		self.orders = {}
 
 
 	def record(self, order_id: int) -> None:
-		self.last += 1
-
 		if self.last > self.max_orders:
 			del self.orders[self.last - self.max_orders]
 
+		self.last += 1
 		self.orders[self.last] = order_id
 
 

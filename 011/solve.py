@@ -1,7 +1,7 @@
 import collections
 
 
-from typing import Callable, DefaultDict, Iterable, List, Tuple, Union
+from typing import Callable, DefaultDict, Iterable, List, Tuple
 
 
 
@@ -9,7 +9,7 @@ from typing import Callable, DefaultDict, Iterable, List, Tuple, Union
 InfiniteDict = DefaultDict[str, Tuple['InfiniteDict', bool]]
 
 
-def solve(query: str, strings: List[str]) -> None:
+def solve(query: str, strings: List[str]) -> List[str]:
 	infinite_dict: Callable[[], InfiniteDict] = lambda: collections.defaultdict(lambda: (infinite_dict(), False))
 
 

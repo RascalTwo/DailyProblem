@@ -1,4 +1,4 @@
-from typing import Generic, Optional, TypeVar
+from typing import Any, Generic, Optional, TypeVar
 
 
 
@@ -12,11 +12,11 @@ class Node(Generic[T]):
 		self.right = right
 
 
-def count_unival(root: Optional[Node[T]]) -> int:
+def count_unival(root: Optional[Node[Any]]) -> int:
 	return 0 if not root else is_unival(root) + count_unival(root.left) + count_unival(root.right)
 
 
-def is_unival(root: Optional[Node[T]]) -> bool:
+def is_unival(root: Optional[Node[Any]]) -> bool:
 	return not root or (
 		(leaves := (root.left, root.right))
 		and len(set((root.value, *(leaf.value for leaf in leaves if leaf)))) == 1

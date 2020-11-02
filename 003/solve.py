@@ -1,6 +1,6 @@
 import json
 
-from typing import Optional, Generic, TypeVar
+from typing import Any, Optional, Generic, TypeVar
 
 
 
@@ -13,15 +13,19 @@ class Node(Generic[T]):
 		self.right = right
 
 
-def serialize(root: Optional[Node[T]]) -> str:
+def serialize(root: Optional[Node[Any]]) -> str:
 	return json.dumps({'val': root.val, 'left': serialize(root.left), 'right': serialize(root.right)} if root else None)
 
 
-def deserialize(string: str) -> Node[T]:
+def deserialize(string: str) -> Optional[Node[Any]]:
 	return Node(args['val'], deserialize(args['left']), deserialize(args['right'])) if (args := json.loads(string)) else None
 
 
 def test_solve():
 	node = Node('root', Node('left', Node('left.left')), Node('right'))
-	assert deserialize(serialize(node)).left.left.val == 'left.left'
+	deserialized = deserialize(serialize(node))
+	assert deserialized
+	assert deserialized.left
+	assert deserialized.left.left
+	assert deserialized.left.left.val == 'left.left'
 

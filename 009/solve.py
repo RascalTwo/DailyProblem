@@ -1,6 +1,7 @@
 from typing import List
 
 
+
 def solve(integers: List[int]) -> int:
 	last_index = len(integers) - 1
 
