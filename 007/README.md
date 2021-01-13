@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "7"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Facebook"
+
 # 007
 
 Given the mapping `a = 1`, `b = 2`, ... `z = 26`, and an encoded message, count the number of ways it can be decoded.

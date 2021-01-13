@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "103"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Square"
+
 # 103
 
 Given a string and a set of characters, return the shortest substring containing all the characters in the set.

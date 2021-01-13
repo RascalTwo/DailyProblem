@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "96"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Microsoft"
+
 # 096
 
 Given a number in the form of a list of digits, return all possible permutations.

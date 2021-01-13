@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "69"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Facebook"
+
 # 069
 
 Given a list of integers, return the largest product that can be made by multiplying any three integers.

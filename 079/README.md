@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "79"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Facebook"
+
 # 079
 
 Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most `1` element.

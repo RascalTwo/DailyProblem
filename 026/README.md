@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "26"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Google"
+
 # 026
 
 Given a singly linked list and an integer `k`, remove the `k`th last element from the list. `k` is guaranteed to be smaller than the length of the list.

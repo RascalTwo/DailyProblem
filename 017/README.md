@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "17"
+[_metadata_:difficulty]:-  "Hard"
+[_metadata_:asker]:-       "Google"
+
 # 017
 
 Suppose we represent our file system by a string in the following manner:

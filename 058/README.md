@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "58"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Amazon"
+
 # 058
 
 An sorted array of integers was rotated an unknown number of times.

@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "9"
+[_metadata_:difficulty]:-  "Hard"
+[_metadata_:asker]:-       "Airbnb"
+
 # 009
 
 Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.

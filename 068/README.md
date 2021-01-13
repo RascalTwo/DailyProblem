@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "68"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Google"
+
 # 068
 
 On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.

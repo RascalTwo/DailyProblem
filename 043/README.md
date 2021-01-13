@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "43"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Amazon"
+
 # 043
 
 Implement a stack that has the following methods:

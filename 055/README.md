@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "55"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Microsoft"
+
 # 055
 
 Implement a URL shortener with the following methods:

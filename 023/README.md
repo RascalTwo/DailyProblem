@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "23"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Google"
+
 # 023
 
 You are given an `M` by `N` matrix consisting of booleans that represents a board. Each `True` boolean represents a wall. Each `False` boolean represents a tile you can walk on.

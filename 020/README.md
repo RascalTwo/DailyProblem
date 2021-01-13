@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "20"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Google"
+
 # 020
 
 Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.

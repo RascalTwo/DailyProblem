@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "102"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Lyft"
+
 # 102
 
 Given a list of integers and a number `K`, return which contiguous elements of the list sum to `K`.

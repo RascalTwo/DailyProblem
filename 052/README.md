@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "52"
+[_metadata_:difficulty]:-  "Hard"
+[_metadata_:asker]:-       "Google"
+
 # 052
 
 Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:

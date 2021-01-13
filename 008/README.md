@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "8"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Google"
+
 # 008
 
 A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.

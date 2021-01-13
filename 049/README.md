@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "49"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Amazon"
+
 # 049
 
 Given an array of numbers, find the maximum sum of any contiguous subarray of the array.

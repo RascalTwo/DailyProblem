@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "97"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Stripe"
+
 # 097
 
 Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.

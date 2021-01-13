@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "92"
+[_metadata_:difficulty]:-  "Hard"
+[_metadata_:asker]:-       "Airbnb"
+
 # 092
 
 We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.

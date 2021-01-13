@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "33"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Microsoft"
+
 # 033
 
 Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.

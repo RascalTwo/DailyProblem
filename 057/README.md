@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "57"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Amazon"
+
 # 057
 
 Given a string `s` and an integer `k`, break up the string into multiple lines such that each line has a length of `k` or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return `null`.

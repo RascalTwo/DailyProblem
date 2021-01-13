@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "61"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Google"
+
 # 061
 
 Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.

@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "82"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Microsoft"
+
 # 082
 
 Using a `read7()` method that returns 7 characters from a file, implement `readN(n)` which reads `n` characters.

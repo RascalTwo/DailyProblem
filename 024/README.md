@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "24"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Google"
+
 # 024
 
 Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.

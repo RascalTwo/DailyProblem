@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "77"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Snapchat"
+
 # 077
 
 Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.

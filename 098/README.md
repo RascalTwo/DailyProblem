@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "98"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Coursera"
+
 # 098
 
 Given a 2D board of characters and a word, find if the word exists in the grid.

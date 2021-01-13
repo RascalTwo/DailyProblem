@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "74"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Apple"
+
 # 074
 
 Suppose you have a multiplication table that is `N` by `N`. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).

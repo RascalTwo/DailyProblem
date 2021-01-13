@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "89"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "LinkedIn"
+
 # 089
 
 Determine whether a tree is a valid binary search tree.

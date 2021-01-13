@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "44"
+[_metadata_:difficulty]:-  "Medium"
+[_metadata_:asker]:-       "Google"
+
 # 044
 
 We can determine how "out of order" an array `A` is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i]` > `A[j]` but `i < j`. That is, a smaller element appears after a larger element.

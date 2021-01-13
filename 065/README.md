@@ -1,3 +1,7 @@
+[_metadata_:number]:-      "65"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Amazon"
+
 # 065
 
 Given a `N` by `M` matrix of numbers, print out the matrix in a clockwise spiral.
