@@ -15,4 +15,3 @@ def solve(S: List[int], k: int) -> Optional[List[int]]:
 
 def test_solve():
 	assert solve([12, 1, 61, 5, 9, 2], 24) == [12, 9, 2, 1]
-test_solve()

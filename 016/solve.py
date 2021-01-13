@@ -1,8 +1,12 @@
+from typing import Dict
+
+
+
 class OrderRecorder:
 	def __init__(self, max_orders: int):
 		self.max_orders = max_orders
 		self.last = 1
-		self.orders = {}
+		self.orders: Dict[int, int] = {}
 
 
 	def record(self, order_id: int) -> None:

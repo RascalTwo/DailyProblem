@@ -2,7 +2,7 @@ import random
 import statistics
 
 
-from typing import DefaultDict, Iterable, TypeVar
+from typing import Iterable, TypeVar
 
 
 
@@ -21,5 +21,3 @@ def solve(stream: Iterable[T]) -> T:
 
 def test_solve():
 	assert statistics.median((solve(range(100)) for _ in range(10000))) == 50.0
-
-

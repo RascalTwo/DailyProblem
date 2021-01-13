@@ -17,10 +17,10 @@ def solve(query: str, strings: List[str]) -> List[str]:
 	for string in strings:
 		current = trie
 		for char in string[:-1]:
-			current = current[char][0]
+			current = current[char][0]  # type: ignore
 
 		char = string[-1]
-		current[char] = (current[char][0], True)
+		current[char] = (current[char][0], True)  # type: ignore
 
 	def collect(prefix: str, current: InfiniteDict) -> Iterable[str]:
 		for next_char, (next_chars, is_word) in current.items():
@@ -31,7 +31,7 @@ def solve(query: str, strings: List[str]) -> List[str]:
 
 	current = trie
 	for char in query:
-		current = current[char][0]
+		current = current[char][0]  # type: ignore
 
 	return list(collect(query, current))
 
