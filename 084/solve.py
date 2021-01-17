@@ -2,7 +2,7 @@ from typing import List
 
 
 def flood_fill(matrix: List[List[int]], r: int, c: int):
-	if r < 0 or r >= len(matrix) or c < 0 or c >= len(matrix[c]) or matrix[r][c] != 1:
+	if r < 0 or r >= len(matrix) or c < 0 or c >= len(matrix[r]) or matrix[r][c] != 1:
 		return
 
 	matrix[r][c] = 2
@@ -21,6 +21,11 @@ def solve(matrix: List[List[int]]) -> int:
 
 
 def test_solve():
+	assert solve([]) == 0
+
+	assert solve([[1]]) == 1
+	assert solve([[1, 0, 1]]) == 2
+
 	assert solve([
 		[1, 0, 0, 0, 0],
 		[0, 0, 1, 1, 0],
@@ -29,3 +34,4 @@ def test_solve():
 		[1, 1, 0, 0, 1],
 		[1, 1, 0, 0, 1]
 	]) == 4
+test_solve()
