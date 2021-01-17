@@ -13,6 +13,9 @@ def decode(encoded: str) -> str:
 
 
 def encode(string: str) -> str:
+	if not string:
+		return ''
+
 	result = ''
 	duplicates = string[0]
 	for i, char in enumerate(string[1:]):
@@ -27,6 +30,15 @@ def encode(string: str) -> str:
 
 
 def test_solve():
+	assert encode('') == ''
+	assert decode('') == ''
+
+	assert encode('A') == '1A'
+	assert decode('1A') == 'A'
+
+	assert encode('AAA') == '3A'
+	assert decode('3A') == 'AAA'
+
 	assert encode('AAAABBBCCDAA') == '4A3B2C1D2A'
 	assert decode('4A3B2C1D2A') == 'AAAABBBCCDAA'
 
