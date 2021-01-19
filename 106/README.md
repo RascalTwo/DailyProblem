@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "106"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Pinterest"
+[_metadata_:tags]:-        "list"
 
 # 106
 

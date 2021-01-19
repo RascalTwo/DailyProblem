@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "55"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Microsoft"
+[_metadata_:tags]:-        "encode decode data-structure string"
 
 # 055
 

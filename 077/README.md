@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "77"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Snapchat"
+[_metadata_:tags]:-        "list"
 
 # 077
 

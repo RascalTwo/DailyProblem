@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "62"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Facebook"
+[_metadata_:tags]:-        "matrix path"
 
 # 062
 

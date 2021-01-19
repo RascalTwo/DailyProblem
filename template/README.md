@@ -1,4 +1,4 @@
-[_metadata_:number]:-      "NUM"
+[_metadata_:number]:-      "NUMBER"
 [_metadata_:difficulty]:-  "DIFFICULTY"
 [_metadata_:asker]:-       "ASKER"
 

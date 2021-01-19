@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "12"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Amazon"
+[_metadata_:tags]:-        "combinations"
 
 # 012
 

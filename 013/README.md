@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "13"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Amazon"
+[_metadata_:tags]:-        "string unique substring"
 
 # 013
 

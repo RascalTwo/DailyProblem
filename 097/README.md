@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "97"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Stripe"
+[_metadata_:tags]:-        "data-structure"
 
 # 097
 

@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "45"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Sigma"
+[_metadata_:tags]:-        "math random"
 
 # 045
 

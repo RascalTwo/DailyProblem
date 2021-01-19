@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "5"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Jane"
+[_metadata_:tags]:-        "function"
 
 # 005
 

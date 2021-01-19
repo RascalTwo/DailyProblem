@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "103"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Square"
+[_metadata_:tags]:-        "string substring"
 
 # 103
 

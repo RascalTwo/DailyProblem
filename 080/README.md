@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "80"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Google"
+[_metadata_:tags]:-        "binary-tree"
 
 # 080
 

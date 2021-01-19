@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "109"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Cisco"
+[_metadata_:tags]:-        "bitwise"
 
 # 109
 

@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "38"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Microsoft"
+[_metadata_:tags]:-        "matrix"
 
 # 038
 

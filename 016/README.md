@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "16"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Twitter"
+[_metadata_:tags]:-        "data-structure"
 
 # 016
 

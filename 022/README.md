@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "22"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Microsoft"
+[_metadata_:tags]:-        "decode string"
 
 # 022
 

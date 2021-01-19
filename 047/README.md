@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "47"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Facebook"
+[_metadata_:tags]:-        "list"
 
 # 047
 

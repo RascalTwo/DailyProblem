@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "2"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Uber"
+[_metadata_:tags]:-        "list"
 
 # 002
 

@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "4"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Stripe"
+[_metadata_:tags]:-        "list"
 
 # 004
 

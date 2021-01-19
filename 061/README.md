@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "61"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Google"
+[_metadata_:tags]:-        "math"
 
 # 061
 

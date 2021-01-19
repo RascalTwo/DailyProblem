@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "23"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Google"
+[_metadata_:tags]:-        "path matrix"
 
 # 023
 

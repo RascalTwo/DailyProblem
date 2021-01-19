@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "42"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Google"
+[_metadata_:tags]:-        "list sublist"
 
 # 042
 

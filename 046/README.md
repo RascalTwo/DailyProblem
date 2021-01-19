@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "46"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Amazon"
+[_metadata_:tags]:-        "substring string palindrome"
 
 # 046
 

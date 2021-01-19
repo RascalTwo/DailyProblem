@@ -1,6 +1,7 @@
 [_metadata_:number]:-      "11"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Twitter"
+[_metadata_:tags]:-        "trie"
 
 # 011
 
