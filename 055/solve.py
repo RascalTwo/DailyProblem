@@ -2,7 +2,7 @@ import random
 import string
 
 
-from typing import Optional
+from typing import List, Optional
 
 
 
@@ -11,8 +11,8 @@ class Shortener:
 
 
 	def __init__(self):
-		self.urls = []
-		self.shorts = []
+		self.urls: List[str] = []
+		self.shorts: List[str] = []
 
 
 	@staticmethod
@@ -46,3 +46,5 @@ def test_solve():
 	for url, shortened in [(url, shortener.shorten(url)) for url in ('abc', 'def', 'ghi')]:
 		assert shortener.restore(shortened) == url
 		assert shortener.shorten(url) == shortened
+
+	assert shortener.restore('nonexistant') == None
