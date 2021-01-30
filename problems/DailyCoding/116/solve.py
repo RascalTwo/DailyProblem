@@ -48,7 +48,7 @@ def test_solve():
 	assert tree.right != False
 	for _ in range(10):
 		try:
-			assert len(str(tree)) > 32
+			assert len(str(solve())) > 32
 			break
 		except:
 			pass
