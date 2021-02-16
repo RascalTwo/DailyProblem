@@ -46,7 +46,7 @@ public class solve{
 			assert false == true;
 			System.out.println("Assertions are not enabled, exiting");
 			System.exit(1);
-		}catch(Exception e){}
+		}catch(AssertionError e){}
 
 		assert invertBinaryTree(
 			new Node<Integer>(1, new Node<Integer>(2))

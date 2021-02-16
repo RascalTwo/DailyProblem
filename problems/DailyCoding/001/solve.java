@@ -15,7 +15,7 @@ public class solve{
 			assert false == true;
 			System.out.println("Assertions are not enabled, exiting");
 			System.exit(1);
-		}catch(Exception e){}
+		}catch(AssertionError e){}
 
 
 		assert anyEqual(new int[] {1, 2}, 3) == true;

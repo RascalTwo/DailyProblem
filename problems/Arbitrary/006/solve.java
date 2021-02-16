@@ -23,7 +23,7 @@ public class solve{
 			assert false == true;
 			System.out.println("Assertions are not enabled, exiting");
 			System.exit(1);
-		}catch(Exception e){}
+		}catch(AssertionError e){}
 
 
 		assert removeSortedDupes(new ArrayList<Integer>(Arrays.asList(1, 1, 2))).equals(new ArrayList<Integer>(Arrays.asList(1, 2)));
