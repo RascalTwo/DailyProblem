@@ -1,7 +1,7 @@
 [_metadata_:number]:-      "3"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Google"
-[_metadata_:tags]:-        "deserialize serialize binary-tree"
+[_metadata_:tags]:-        "decode encode binary-tree"
 
 # 003
 

@@ -1,3 +1,5 @@
+[_metadata_:tags]:-        "list order"
+
 # 003
 
 Given an array of unique integers, return an array in which each integer is replaced with its rank within the array.
