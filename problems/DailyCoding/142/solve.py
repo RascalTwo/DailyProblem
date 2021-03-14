@@ -24,3 +24,7 @@ def test_solve():
 	assert solve('(()*') is True
 	assert solve('(*)') is True
 	assert solve(')*(') is False
+	assert solve('(**') is True
+	assert solve('((**') is True
+	assert solve('()**') is True
+	assert solve('((*)(') is False
