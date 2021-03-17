@@ -17,6 +17,13 @@ public class solve{
 	}
 
 	public static void main(String[] args){
+		try{
+			assert false == true;
+			System.out.println("Assertions are not enabled, exiting");
+			System.exit(1);
+		}catch(AssertionError e){}
+
+
 		assert getCharacterIndexes("abc  cba").equals(Map.of(
 			'a', Arrays.asList(0, 7),
 			'b', Arrays.asList(1, 6),
