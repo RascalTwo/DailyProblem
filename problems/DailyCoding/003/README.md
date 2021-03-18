@@ -1,25 +1,11 @@
-[_metadata_:number]:-      "3"
-[_metadata_:difficulty]:-  "Medium"
-[_metadata_:asker]:-       "Google"
-[_metadata_:tags]:-        "decode encode binary-tree"
+# Binary Tree Serialization
 
-# 003
+<!-- INFO TABLE BEGIN -->
 
-Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
 
-For example, given the following Node class
+<!-- INFO TABLE END -->
 
-```python
-class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-```
-
-The following test should pass:
-
-```python
-node = Node('root', Node('left', Node('left.left')), Node('right'))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
+Given a binary tree, write serialize and deserialize methods, that turn a binary tree into a string, and turn a string back into a binary tree.

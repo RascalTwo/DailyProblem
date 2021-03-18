@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "28"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Palantir"
 [_metadata_:tags]:-        "string"

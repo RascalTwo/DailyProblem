@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "116"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Street"
 [_metadata_:tags]:-        "binary-tree"

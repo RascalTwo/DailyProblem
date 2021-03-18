@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "143"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Amazon"
 [_metadata_:tags]:-        "order list"

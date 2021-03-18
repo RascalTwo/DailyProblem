@@ -18,12 +18,15 @@ public class solve{
 		}catch(AssertionError e){}
 
 
+		assert anyEqual(new int[] {10, 15, 3, 7}, 17) == true;
+		assert anyEqual(new int[] {9, 4, 3, 6}, 39) == false;
+		assert anyEqual(new int[] {7, 3, 15, 10}, 17) == true;
 		assert anyEqual(new int[] {1, 2}, 3) == true;
 		assert anyEqual(new int[] {1}, 3) == false;
 		assert anyEqual(new int[] {1, 4, 9, 6}, 10) == true;
-		assert anyEqual(new int[] {10, 15, 3, 7}, 17) == true;
-		assert anyEqual(new int[] {7, 3, 15, 10}, 17) == true;
-		assert anyEqual(new int[] {9, 4, 3, 6}, 39) == false;
 		assert anyEqual(new int[] {1, 7, 4, 8, 6, 7}, 12) == true;
+		assert anyEqual(new int[] {2, 7, 11, 15}, 9) == true;
+		assert anyEqual(new int[] {3, 2, 4}, 6) == true;
+		assert anyEqual(new int[] {3, 3}, 6) == true;
 	}
 }

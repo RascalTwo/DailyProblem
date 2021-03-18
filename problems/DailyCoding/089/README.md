@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "89"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "LinkedIn"
 [_metadata_:tags]:-        "binary-search-tree"

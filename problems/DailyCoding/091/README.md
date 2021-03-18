@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "91"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Dropbox"
 [_metadata_:tags]:-        "function"

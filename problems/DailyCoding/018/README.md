@@ -1,19 +1,24 @@
-[_metadata_:number]:-      "18"
-[_metadata_:difficulty]:-  "Hard"
-[_metadata_:asker]:-       "Google"
-[_metadata_:tags]:-        "list sublist"
+# Subarray Maximums
 
-# 018
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
+
+<!-- INFO TABLE END -->
 
 Given an array of integers and a number `k`, where `1 <= k <= length of the array`, compute the maximum values of each subarray of length `k`.
 
-For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[10, 7, 8, 8]`, since:
+## Examples
 
-```
+Given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[10, 7, 8, 8]`, since:
+
     10 = max(10, 5, 2)
     7 = max(5, 2, 7)
     8 = max(2, 7, 8)
     8 = max(7, 8, 7)
-```
 
-Do this in `O(n)` time and `O(k)` space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+| Input                                                                                                  | Output          |
+| ------------------------------------------------------------------------------------------------------ | --------------- |
+| <table><tr><th>integers</th><th>k</th></tr><tr><td>`[10, 5, 2, 7, 8, 7]`</td><td>`3`</td></tr></table> | `[10, 7, 8, 8]` |

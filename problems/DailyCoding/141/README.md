@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "141"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Microsoft"
 [_metadata_:tags]:-        "stack"

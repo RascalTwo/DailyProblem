@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "105"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Facebook"
 [_metadata_:tags]:-        "function"

@@ -1,22 +1,19 @@
-[_metadata_:number]:-      "33"
-[_metadata_:difficulty]:-  "Easy"
-[_metadata_:asker]:-       "Microsoft"
-[_metadata_:tags]:-        "math stream"
+# Running Median
 
-# 033
+<!-- INFO TABLE BEGIN -->
 
-Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
 
-Recall that the median of an even-numbered list is the average of the two middle numbers.
+<!-- INFO TABLE END -->
 
-For example, given the sequence `[2, 1, 5, 7, 2, 0, 5]`, your algorithm should print out:
+Compute the running median of a sequence of numbers.
 
-```
-2
-1.5
-2
-3.5
-2
-2
-2
-```
+That is, given a stream of numbers, print out the median of the list so far on each new element.
+
+## Examples
+
+| Input                   | Output                      |
+| ----------------------- | --------------------------- |
+| `[2, 1, 5, 7, 2, 0, 5]` | `[2, 1.5, 2, 3.5, 2, 2, 2]` |

@@ -1,20 +1,29 @@
-[_metadata_:number]:-      "12"
-[_metadata_:difficulty]:-  "Hard"
-[_metadata_:asker]:-       "Amazon"
-[_metadata_:tags]:-        "combinations"
+# Calculate Staircaise Climbing Variations
 
-# 012
+<!-- INFO TABLE BEGIN -->
 
-There exists a staircase with `N` steps, and you can climb up either `1` or `2` steps at a time. Given `N`, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
 
-For example, if `N` is `4`, then there are `5` unique ways:
+<!-- INFO TABLE END -->
 
-```
+There exists a staircase with `N` steps, and you can climb up either `1` or `2` steps at a time.
+
+Given `N`, write a function that returns the number of unique ways you can climb the staircase.
+
+## Examples
+
+If `N` is `4`, then there are `5` unique ways:
+
     1, 1, 1, 1
     2, 1, 1
     1, 2, 1
     1, 1, 2
     2, 2
-```
 
-What if, instead of being able to climb `1` or `2` steps at a time, you could climb any number from a set of positive integers `X`? For example, if `X = {1, 3, 5}`, you could climb `1`, `3`, or `5` steps at a time.
+| Input | Output |
+| ----- | ------ |
+| `4`   | `5`    |
+| `3`   | `3`    |
+| `5`   | `10`   |

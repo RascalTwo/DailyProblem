@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "39"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Dropbox"
 [_metadata_:tags]:-        "simulate"

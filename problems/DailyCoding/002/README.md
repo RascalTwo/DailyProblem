@@ -1,12 +1,18 @@
-[_metadata_:number]:-      "2"
-[_metadata_:difficulty]:-  "Hard"
-[_metadata_:asker]:-       "Uber"
-[_metadata_:tags]:-        "list"
+# List Products
 
-# 002
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
+
+<!-- INFO TABLE END -->
 
 Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
 
-For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
+## Examples
 
-Follow-up: what if you can't use division?
+| Input             | Output                  |
+| ----------------- | ----------------------- |
+| `[1, 2, 3, 4, 5]` | `[120, 60, 40, 30, 24]` |
+| `[3, 2, 1]`       | `[2, 3, 6]`             |
