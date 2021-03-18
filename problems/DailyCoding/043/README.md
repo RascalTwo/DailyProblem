@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "43"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Amazon"
 [_metadata_:tags]:-        "stack"

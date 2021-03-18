@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "102"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Lyft"
 [_metadata_:tags]:-        "list contiguous"

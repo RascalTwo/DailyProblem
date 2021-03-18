@@ -1,11 +1,15 @@
-def solve(k: int, s: str):
+from typing import List
+
+
+
+def solve(s: str, k: int):
 	longest = []
 
 	for start in range(len(s)):
-		distinct = []
+		distinct: List[str] = []
 		for i in range(start, len(s)):
 			distinct.append(s[i])
-			if len(set(distinct)) <= k:
+			if len(set(distinct)) > k:
 				distinct.remove(s[i])
 				break
 		longest = distinct if len(distinct) > len(longest) else longest
@@ -14,5 +18,5 @@ def solve(k: int, s: str):
 
 
 def test_solve():
-	assert solve(2, "abcba") == "bcb"
-	assert solve(3, "zabcbaz") == "abcba"
+	assert solve("abcba", 2) == "bcb"
+	assert solve("zabcbaz", 3) == "abcba"

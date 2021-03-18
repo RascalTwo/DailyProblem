@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "119"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Google"
 [_metadata_:tags]:-        "list"

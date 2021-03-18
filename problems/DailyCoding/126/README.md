@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "126"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Facebook"
 [_metadata_:tags]:-        "list"

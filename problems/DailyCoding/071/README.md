@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "71"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Sigma"
 [_metadata_:tags]:-        "math"

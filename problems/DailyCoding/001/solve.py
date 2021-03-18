@@ -59,3 +59,6 @@ def test_solve():
 		assert solve([1], 3) is False
 		assert solve([1, 4, 9, 6], 10) is True
 		assert solve([1, 7, 4, 8, 6, 7], 12) is True
+		assert solve([2, 7, 11, 15], 9) is True
+		assert solve([3, 2, 4], 6) is True
+		assert solve([3, 3], 6) is True

@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "120"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Microsoft"
 

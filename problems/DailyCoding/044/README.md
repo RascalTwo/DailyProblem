@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "44"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Google"
 [_metadata_:tags]:-        "unique list order"

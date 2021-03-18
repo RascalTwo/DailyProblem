@@ -2,7 +2,7 @@ import time
 import threading
 
 
-from typing import Any, Callable
+from typing import Any, Callable, List
 
 
 
@@ -11,7 +11,7 @@ def solve(f: Callable[[], Any], n: int) -> None:
 
 
 def test_solve():
-	memory = []
+	memory: List[float] = []
 	def function():
 		memory.append(int(time.time() / 10))
 

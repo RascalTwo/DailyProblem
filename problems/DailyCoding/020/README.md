@@ -1,14 +1,19 @@
-[_metadata_:number]:-      "20"
-[_metadata_:difficulty]:-  "Easy"
-[_metadata_:asker]:-       "Google"
-[_metadata_:tags]:-        "linked-list"
+# Linked Lists Intersection
 
-# 020
+<!-- INFO TABLE BEGIN -->
 
-Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
 
-For example, given `A = 3 -> 7 -> 8 -> 10` and `B = 99 -> 1 -> 8 -> 10`, return the node with value `8`.
+<!-- INFO TABLE END -->
 
-In this example, assume nodes with the same value are the exact same node objects.
+Given two singly linked lists that intersect at some point, find the intersecting node.
 
-Do this in `O(M + N)` time (where `M` and `N` are the lengths of the lists) and constant space.
+> The lists are non-cyclical.
+
+## Examples
+
+| Input                                                                       | Output |
+| --------------------------------------------------------------------------- | ------ |
+| `Node(3, Node(7, Node(8, Node(10)))), Node(99, Node(1, Node(8, Node(10))))` | `8`    |

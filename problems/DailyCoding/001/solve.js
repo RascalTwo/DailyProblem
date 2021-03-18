@@ -6,7 +6,7 @@
  *
  * @returns If two numbers in numbers summed equaled goal
  */
-function anyEqual(numbers, goal){
+function anyEqualIter(numbers, goal){
 	for (let i = 0; i < numbers.length - 1; i++){
 		for (let j = i + 1; j < numbers.length; j++){
 			if (numbers[i] + numbers[j] == goal) return true;
@@ -25,7 +25,7 @@ function anyEqual(numbers, goal){
  *
  * @returns If two numbers in numbers summed equaled goal
  */
-function anyEqual(numbers, goal){
+function anyEqualMap(numbers, goal){
 	const others = new Set();
 
 	for (const value of numbers){
@@ -45,7 +45,7 @@ function anyEqual(numbers, goal){
  *
  * @returns If two numbers in numbers summed equaled goal
  */
-function anyEqual(numbers, goal){
+function anyEqualPointers(numbers, goal){
 	numbers.sort();
 
 	let i = 0;
@@ -80,11 +80,16 @@ function anyEqual(numbers, goal){
 (() => {
 	const assert = require('assert');
 
-	assert.deepStrictEqual(anyEqual([1, 2], 3), true);
-	assert.deepStrictEqual(anyEqual([1], 3), false);
-	assert.deepStrictEqual(anyEqual([1, 4, 9, 6], 10), true);
-	assert.deepStrictEqual(anyEqual([10, 15, 3, 7], 17), true);
-	assert.deepStrictEqual(anyEqual([7, 3, 15, 10], 17), true);
-	assert.deepStrictEqual(anyEqual([9, 4, 3, 6], 39), false);
-	assert.deepStrictEqual(anyEqual([1, 7, 4, 8, 6, 7], 12), true);
+	for (const anyEqual of [anyEqualIter, anyEqualMap, anyEqualPointers]){
+		assert.deepStrictEqual(anyEqual([10, 15, 3, 7], 17), true);
+		assert.deepStrictEqual(anyEqual([9, 4, 3, 6], 39), false);
+		assert.deepStrictEqual(anyEqual([7, 3, 15, 10], 17), true);
+		assert.deepStrictEqual(anyEqual([1, 2], 3), true);
+		assert.deepStrictEqual(anyEqual([1], 3), false);
+		assert.deepStrictEqual(anyEqual([1, 4, 9, 6], 10), true);
+		assert.deepStrictEqual(anyEqual([1, 7, 4, 8, 6, 7], 12), true);
+		assert.deepStrictEqual(anyEqual([2, 7, 11, 15], 9), true);
+		assert.deepStrictEqual(anyEqual([3, 2, 4], 6), true);
+		assert.deepStrictEqual(anyEqual([3, 3], 6), true);
+	}
 })();

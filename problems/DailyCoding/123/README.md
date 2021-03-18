@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "123"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "LinkedIn"
 [_metadata_:tags]:-        "string parse"

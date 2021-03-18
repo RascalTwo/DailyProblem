@@ -1,3 +1,5 @@
+[_metadata_:tags]:-        "string decode"
+
 # 023
 
 Write a methods decode strings that follow this rule:

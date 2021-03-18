@@ -18,4 +18,6 @@ def solve(step_count: int, steps_per_step: Set[int] = {1, 2}) -> List[List[int]]
 
 
 def test_solve():
-	assert solve(4) == [[1, 1, 1, 1], [2, 1, 1], [1, 2, 1], [1, 1, 2], [2, 2]]
+	assert sorted(list(solve(4))) == [[1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]]
+	assert sorted(list(solve(3))) == [[1, 1, 1], [1, 2], [2, 1]]
+	assert sorted(list(solve(5))) == [[1, 1, 1, 1, 1], [1, 1, 1, 2], [1, 1, 2, 1], [1, 2, 1, 1], [1, 2, 2], [2, 1, 1, 1], [2, 1, 2], [2, 2, 1]]

@@ -1,10 +1,11 @@
-[_metadata_:number]:-      "14"
-[_metadata_:difficulty]:-  "Medium"
-[_metadata_:asker]:-       "Google"
-[_metadata_:tags]:-        "math"
+# π via Monte Carlo
 
-# 014
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
+
+<!-- INFO TABLE END -->
 
 The area of a circle is defined as `πr^2`. Estimate `π` to `3` decimal places using a Monte Carlo method.
-
-Hint: The basic equation of a circle is `x2 + y2 = r2`.

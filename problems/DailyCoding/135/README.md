@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "135"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Apple"
 [_metadata_:tags]:-        "binary-tree"

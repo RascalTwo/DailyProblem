@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "132"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Riot Games"
 [_metadata_:tags]:-        "data-structure"

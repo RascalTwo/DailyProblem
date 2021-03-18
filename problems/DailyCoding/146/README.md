@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "146"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "BufferBox"
 [_metadata_:tags]:-        "binary-tree"

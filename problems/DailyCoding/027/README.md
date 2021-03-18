@@ -1,12 +1,20 @@
-[_metadata_:number]:-      "27"
-[_metadata_:difficulty]:-  "Easy"
-[_metadata_:asker]:-       "Facebook"
-[_metadata_:tags]:-        "parse"
+# Balanced Enclosing Symbols
 
-# 027
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
+
+<!-- INFO TABLE END -->
 
 Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
 
-For example, given the string `"([])[]({})"`, you should return `True`.
+## Examples
 
-Given the string `"([)]"` or `"((()"`, you should return `False`.
+| Input          | Output  |
+| -------------- | ------- |
+| `'([])[]({})'` | `True`  |
+| `'([)]'`       | `False` |
+| `'((()'`       | `False` |
+| `')'`          | `False` |

@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "92"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:asker]:-       "Airbnb"
 [_metadata_:tags]:-        "directed-graph"

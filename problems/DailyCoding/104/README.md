@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "104"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Google"
 [_metadata_:tags]:-        "linked-list palindrome"

@@ -1,8 +1,11 @@
+from typing import Set
+
+
 MAPPING = {str(i): chr(96 + i) for i in range(1, 27)}
 
 
 def get_possible_decodings(encoded: str):
-	decodings = set()
+	decodings: Set[str] = set()
 
 	for i in range(len(encoded)):
 		considering = encoded[i:]

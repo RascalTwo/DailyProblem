@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "147"
 [_metadata_:difficulty]:-  "Hard"
 [_metadata_:tags]:-        "list order"
 

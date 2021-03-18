@@ -1,12 +1,18 @@
-[_metadata_:number]:-      "22"
-[_metadata_:difficulty]:-  "Medium"
-[_metadata_:asker]:-       "Microsoft"
-[_metadata_:tags]:-        "decode string"
+# Rediscover words from string
 
-# 022
+<!-- INFO TABLE BEGIN -->
 
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return `null`.
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
 
-For example, given the set of words `'quick', 'brown', 'the', 'fox'`, and the string `"thequickbrownfox"`, you should return `['the', 'quick', 'brown', 'fox']`.
+<!-- INFO TABLE END -->
 
-Given the set of words `'bed', 'bath', 'bedbath', 'and', 'beyond'`, and the string `"bedbathandbeyond"`, return either `['bed', 'bath', 'and', 'beyond]` or `['bedbath', 'and', 'beyond']`.
+Given an array of words and a string made up of those words without any spaces, return the words of the original sentence in a list.
+
+## Examples
+
+| Input                                                                                                                                             | Output                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| <table><tr><th>words</th><th>string</th></tr><tr><td>`['quick', 'brown', 'the', 'fox']`</td><td>`"thequickbrownfox"`</td></tr></table>            | `['the', 'quick', 'brown', 'fox']`                                  |
+| <table><tr><th>words</th><th>string</th></tr><tr><td>`['bed', 'bath', 'bedbath', 'and', 'beyond']`</td><td>`"bedbathandbeyond"`</td></tr></table> | `['bed', 'bath', 'and', 'beyond]` or `['bedbath', 'and', 'beyond']` |

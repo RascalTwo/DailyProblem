@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "122"
 [_metadata_:difficulty]:-  "Medium"
 [_metadata_:asker]:-       "Zillow"
 [_metadata_:tags]:-        "matrix"

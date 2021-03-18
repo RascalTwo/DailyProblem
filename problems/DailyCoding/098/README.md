@@ -1,4 +1,3 @@
-[_metadata_:number]:-      "98"
 [_metadata_:difficulty]:-  "Easy"
 [_metadata_:asker]:-       "Coursera"
 [_metadata_:tags]:-        "matrix"

@@ -1,12 +1,23 @@
-[_metadata_:number]:-      "7"
-[_metadata_:difficulty]:-  "Medium"
-[_metadata_:asker]:-       "Facebook"
-[_metadata_:tags]:-        "decode string"
+# Count Possible A1Z26 Decodings
 
-# 007
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                              | Solutions                                                                                                                                        |
+| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py) |
+
+<!-- INFO TABLE END -->
 
 Given the mapping `a = 1`, `b = 2`, ... `z = 26`, and an encoded message, count the number of ways it can be decoded.
 
-For example, the message `'111'` would give `3`, since it could be decoded as `'aaa'`, `'ka'`, and `'ak'`.
+## Examples
 
-You can assume that the messages are decodable. For example, '001' is not allowed.
+The message `'111'` would give `3`, since it could be decoded as `'aaa'`, `'ka'`, and `'ak'`.
+
+| Input    | Output |
+| -------- | ------ |
+| `'1'`    | `1`    |
+| `'12'`   | `3`    |
+| `'111'`  | `3`    |
+| `'1111'` | `5`    |
+| `'121'`  | `8`    |
