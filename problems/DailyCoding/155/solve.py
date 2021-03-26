@@ -20,3 +20,4 @@ def test_solve():
 	assert solve([1, 2, 1, 1, 3, 4, 1]) == 1
 	assert solve([0, 1, 0, 2, 0]) == 0
 	assert solve([0, 1, 0, 2, 1]) == None
+	assert solve([9, 8, 8, 7]) == 8
