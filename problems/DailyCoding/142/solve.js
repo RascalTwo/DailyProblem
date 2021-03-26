@@ -3,8 +3,7 @@
  *
  * @param {string} string
  */
-function isBalanceable(string){
-	let opened = 0;
+function isBalanceable(string, opened=0){
 	for (const [i, char] of Array.from(string).entries()){
 		if (char === '*'){
 			if ([' ', '(', ')'].some(sub => isBalanceable(sub + string.slice(i + 1), opened))) return true;
@@ -36,4 +35,5 @@ function isBalanceable(string){
 	assert.deepStrictEqual(isBalanceable('((**'), true);
 	assert.deepStrictEqual(isBalanceable('()**'), true);
 	assert.deepStrictEqual(isBalanceable('((*)('), false);
+	assert.deepStrictEqual(isBalanceable('((*'), false);
 })();
