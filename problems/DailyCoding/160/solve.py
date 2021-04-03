@@ -56,6 +56,15 @@ def solve(root: Node) -> int:
 
 def test_solve():
 	assert solve(Node('a', {
+		Node('b'): 3
+	})) == 3
+
+	assert solve(Node('a', {
+		Node('b'): 3,
+		Node('c'): 5
+	})) == 8
+
+	assert solve(Node('a', {
 		Node('b'): 3,
 		Node('c'): 5,
 		Node('d', {
