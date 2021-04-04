@@ -12,4 +12,5 @@ def test_solve():
 	assert solve('abc', 'euokdcba') is True
 	assert solve('abc', 'aabbcc') is True
 	assert solve('hello world!', ' !dehllloorw') is True
+	assert solve('hello world!', ' !dehlloorw') is False
 	assert solve('hello world!', ' abc') is False
