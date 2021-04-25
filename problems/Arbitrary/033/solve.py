@@ -14,3 +14,4 @@ def solve(goal: str, lyric: str) -> bool:
 def test_solve():
 	assert solve('boom', 'everybody\'s looking for something"') is True
 	assert solve('abc', 'everybody\'s looking for something"') is False
+	assert solve('toe', 'It\'s the eye of the tiger') is True
