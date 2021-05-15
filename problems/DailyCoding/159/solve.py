@@ -14,3 +14,4 @@ def solve(string: str) -> Optional[str]:
 def test_solve():
 	assert solve('acbbac') == 'b'
 	assert solve('abcdef') == None
+	assert solve('ewkdfooie') == 'o'
