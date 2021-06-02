@@ -1,28 +1,49 @@
+
+import itertools
+import copy
+
+
 from typing import Any, List, Sequence
 
 
 
-def solve(a: str, b: str, c: str):
-	a_len = len(a) + 1
-	b_len = len(b) + 1
-	c_len = len(c) + 1
-	longests = [
-		[
-			[0 for _ in range(c_len)]
-			for _ in range(b_len)
-		]
-		for _ in range(a_len)
-	]
+def solve(*strings: str) -> int:
+	lengths = [len(string) + 1 for string in strings]
 
-	for i in range(a_len):
-		for j in range(b_len):
-			for k in range(c_len):
-				if a[i - 1] == b[j - 1] and b[j - 1] == c[k - 1]:
-					longests[i][j][k] = longests[i - 1][j - 1][k - 1] + 1
-				else:
-					longests[i][j][k] = max(longests[i - 1][j][k], longests[i][j - 1][k], longests[i][j][k - 1])
+	longests: List[Any] = [0 for _ in range(lengths[-1])]
+	for length in lengths[:-1][::-1]:
+		longests = [copy.deepcopy(longests) for _ in range(length)]
 
-	return longests[a_len - 2][b_len - 2][c_len - 2]
+	def set_at_indexes(indexes: Sequence[int], value: int):
+		setting = longests
+		for i in indexes[:-1]:
+			setting = setting[i]
+
+		setting[indexes[-1]] = value
+
+	def get_at_indexes(indexes: Sequence[int]) -> int:
+			value = longests
+			for i in indexes:
+				value = value[i]
+
+			assert isinstance(value, int)
+			return value
+
+	for indexes in itertools.product(*(range(length) for length in lengths)):
+		if len({
+			string[indexes[si] - 1]
+			for si, string in enumerate(strings)
+		}) == 1:
+			set_at_indexes(indexes, get_at_indexes([i - 1 for i in indexes]) + 1)
+			continue
+
+		offsets: List[List[int]] = [list(indexes) for _ in range(len(indexes))]
+		for o in range(len(indexes)):
+			offsets[o][o] -= 1
+
+		set_at_indexes(indexes, max(get_at_indexes(offset) for offset in offsets))
+
+	return get_at_indexes([length - 2 for length in lengths])
 
 
 def test_solve():
@@ -30,3 +51,4 @@ def test_solve():
 	assert solve('a', 'bc', 'def') == 0
 	assert solve('abc', 'ac', 'bc') == 1
 	assert solve('epidemiologist', 'refrigeration', 'supercalifragilisticexpialodocious') == 5
+	assert solve('abcd', 'abcd', 'abcd', 'abcd') == 4
