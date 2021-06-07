@@ -15,3 +15,5 @@ def test_solve():
 	assert solve('boom', 'everybody\'s looking for something"') is True
 	assert solve('abc', 'everybody\'s looking for something"') is False
 	assert solve('toe', 'It\'s the eye of the tiger') is True
+	assert solve('yfg', 'It\'s the eye of the tiger') is True
+	assert solve('gfy', 'It\'s the eye of the tiger') is False

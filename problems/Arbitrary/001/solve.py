@@ -31,7 +31,7 @@ def solve_optimal(lst: List[int]) -> Tuple[int, int]:
 	return best[0]
 
 
-def test_best_container():
+def test_solve():
 	for solve in (solve_plain, solve_optimal):
 		assert solve([1, 8, 6, 2, 5, 4, 8, 3, 7]) == (1, 8)
 		assert solve([1, 1]) == (0, 1)
