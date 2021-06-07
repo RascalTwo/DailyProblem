@@ -27,4 +27,6 @@ function canSpell(target, phrase){
 	assert.deepStrictEqual(canSpell('boom', 'everybody\'s looking for something'), true);
 	assert.deepStrictEqual(canSpell('abc', 'everybody\'s looking for something'), false);
 	assert.deepStrictEqual(canSpell('toe', 'It\'s the eye of the tiger'), true);
+	assert.deepStrictEqual(canSpell('yfg', 'It\'s the eye of the tiger'), true);
+	assert.deepStrictEqual(canSpell('gfy', 'It\'s the eye of the tiger'), false);
 })();
