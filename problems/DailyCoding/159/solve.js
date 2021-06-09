@@ -16,11 +16,27 @@ function getFirstRepeating(string){
 }
 
 
+/**
+ * Return the first character that is repeated in the string
+ *
+ * @param {string} string
+ *
+ * @returns {string | null}
+ */
+const getFirstRepeatingES6 = (string) => (res = Array.from(string).reduce((seen, char, _, arr) => {
+	if (!seen.has(char)) return new Set([...seen, char]);
+
+	arr.splice(0);
+	return char;
+}, new Set())) instanceof Set ? null : res;
+
+
 (() => {
 	const assert = require('assert');
 
-
-	assert.deepStrictEqual(getFirstRepeating('acbbac'), 'b');
-	assert.deepStrictEqual(getFirstRepeating('abcdef'), null);
-	assert.deepStrictEqual(getFirstRepeating('ewkdfooie'), 'o');
+	for (const solve of [getFirstRepeating, getFirstRepeatingES6]){
+		assert.deepStrictEqual(solve('acbbac'), 'b');
+		assert.deepStrictEqual(solve('abcdef'), null);
+		assert.deepStrictEqual(solve('ewkdfooie'), 'o');
+	}
 })();
