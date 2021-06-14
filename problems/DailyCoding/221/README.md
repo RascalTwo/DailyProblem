@@ -1,0 +1,10 @@
+[_metadata_:number]:-      "221"
+[_metadata_:difficulty]:-  "Easy"
+[_metadata_:asker]:-       "Zillow"
+[_metadata_:tags]:-        "math"
+
+# 221
+
+Let's define a `"sevenish"` number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1`, `7`, `8`, `49`, and so on.
+
+Create an algorithm to find the `n`th sevenish number.
