@@ -3,9 +3,7 @@ from typing import Dict, List
 
 
 class Trie:
-	def __init__(self, char: str):
-		self.char = char
-
+	def __init__(self):
 		self.value: int = 0
 		self.children: Dict[str, Trie] = {}
 		self.is_word = False
@@ -13,14 +11,14 @@ class Trie:
 
 class PrefixMapSum:
 	def __init__(self):
-		self.data = Trie('')
+		self.data = Trie()
 
 	def insert(self, key: str, value: int):
 		traversed: List[Trie] = []
 		current = self.data
 		while key:
 			traversed.append(current)
-			current = result if (result := current.children.get(key[0], None)) else current.children.setdefault(key[0], Trie(key[0]))
+			current = result if (result := current.children.get(key[0], None)) else current.children.setdefault(key[0], Trie())
 			key = key[1:]
 
 		if current.is_word:
@@ -55,3 +53,5 @@ def test_solve():
 
 	mapsum.insert('columnar', 10)
 	assert mapsum.sum('col') == 10
+
+	assert mapsum.sum('abc') == 0
