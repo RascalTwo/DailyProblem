@@ -16,7 +16,7 @@ def solve_center_iter(numbers: List[int]) -> Optional[int]:
 		diff = sum(numbers[:pivot]) - sum(numbers[pivot + 1:])
 		if not diff:
 			return pivot
-		elif diff > 1:
+		elif diff > 0:
 			pivot -= 1
 		else:
 			pivot += 1
@@ -32,7 +32,7 @@ def solve_center_iter_sliceless(numbers: List[int]) -> Optional[int]:
 		diff = sum(left) - sum(right)
 		if not diff:
 			return pivot
-		elif diff < 1:
+		elif diff < 0:
 			left.append(numbers[pivot])
 			right.pop(0)
 			pivot += 1
@@ -53,12 +53,12 @@ def solve_center_iter_listless(numbers: List[int]) -> Optional[int]:
 			return pivot
 		elif lsum < rsum:
 			lsum += numbers[pivot]
-			rsum -= numbers[pivot + 1]
 			pivot += 1
+			rsum -= numbers[pivot]
 		elif lsum > rsum:
 			rsum += numbers[pivot]
-			lsum -= numbers[pivot - 1]
 			pivot -= 1
+			lsum -= numbers[pivot]
 
 
 def solve_center_iter_diff_only(numbers: List[int]) -> Optional[int]:
