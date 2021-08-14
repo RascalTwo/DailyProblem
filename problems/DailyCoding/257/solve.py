@@ -22,3 +22,5 @@ def solve(integers: List[int]):
 
 def test_solve():
 	assert solve([3, 7, 5, 6, 9]) == (1, 3)
+	assert solve([9, 8, 7, 6, 5, 4]) == (0, 5)
+	assert solve([1, 2, 3, 5, 4, 6, 8, 7, 9]) == (3, 7)
