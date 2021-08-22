@@ -73,6 +73,14 @@ def solve(raw_expression: str) -> float:
 				building = ''
 			tokens.append(char)
 			continue
+		# Create new tokens for operators appear after tokens
+		if char in OPERATOR_PRECEDENCES and building:
+			tokens.append(building)
+			building = ''
+		# Create new tokens for digits appearing after operators that are not the negative symbol
+		if building in OPERATOR_PRECEDENCES and char in '0123456789' and tokens and any(prev_char in '0123456789()' for prev_char in tokens[-1]):
+				tokens.append(building)
+				building = ''
 		building += char
 	if building:
 		tokens.append(building)
@@ -95,7 +103,15 @@ def solve(raw_expression: str) -> float:
 
 
 def test_solve():
-	assert solve('-1 + (2 + 3)') == 4
-	assert solve('1 + 5 * 2') == 11
-	assert solve('(1 + 5) * 2') == 12
-	assert solve('1 + (5 + (10 - 2))') == 14
+	for expression, expected in [
+		('1 + 2 + 3 + 4 + 5', 15),
+		('-1 + (2 + 3)', 4),
+		('1 + 5 * 2', 11),
+		('(1 + 5) * 2', 12),
+		('1 + (5 + (10 -2))', 14),
+		('1 + (5 + (10 + -2))', 14),
+		('1 + (5 + (10 * -2))', -14),
+		('1 + (5 + (10 * 2))', 26),
+	]:
+		assert solve(expression) == expected
+		assert solve(expression.replace(' ', '')) == expected
