@@ -1,22 +1,19 @@
-from typing import Any, Generic, Optional, TypeVar
+from typing import Optional
 
 
 
-T = TypeVar('T')
-
-
-class Node(Generic[T]):
-	def __init__(self, value: T, left: Optional['Node[T]'], right: Optional['Node[T]']):
+class Node:
+	def __init__(self, value: int, left: Optional['Node'] = None, right: Optional['Node'] = None):
 		self.value = value
 		self.left = left
 		self.right = right
 
 
-def count_unival(root: Optional[Node[Any]]) -> int:
+def count_unival(root: Optional[Node]) -> int:
 	return 0 if not root else is_unival(root) + count_unival(root.left) + count_unival(root.right)
 
 
-def is_unival(root: Optional[Node[Any]]) -> bool:
+def is_unival(root: Optional[Node]) -> bool:
 	return not root or (
 		(leaves := (root.left, root.right))
 		and len(set((root.value, *(leaf.value for leaf in leaves if leaf)))) == 1
@@ -27,52 +24,50 @@ def is_unival(root: Optional[Node[Any]]) -> bool:
 def test_solve():
 	assert count_unival(
 		Node(0,
-			Node(1, None, None),
+			Node(1),
 			Node(0,
 				Node(1,
-					Node(1, None, None),
-					Node(1, None, None)
+					Node(1),
+					Node(1)
 				),
-				Node(0, None, None)
+				Node(0)
 			)
 		)
 	) == 5
 	assert count_unival(
 		Node(0,
-			Node(0, None, None),
-			Node(0, None, None)
+			Node(0),
+			Node(0)
 		)
 	) == 3
 	assert count_unival(
 		Node(0,
-			Node(1, None, None),
-			Node(0, None, None)
+			Node(1),
+			Node(0)
 		)
 	) == 2
 	assert count_unival(
 		Node(0,
 			Node(0,
-				Node(0, None, None),
+				Node(0),
 				None
 			),
-			Node(0, None, None)
+			Node(0)
 		)
 	) == 4
 	assert count_unival(
 		Node(0,
 			Node(1,
-				Node(0, None, None),
+				Node(0),
 				None
 			),
-			Node(0, None, None)
+			Node(0)
 		)
 	) == 2
 	assert count_unival(
 		Node(0,
 			Node(0,
-				Node(1, None, None),
-				None
-			),
-			None
+				Node(1)
+			)
 		)
 	) == 1
