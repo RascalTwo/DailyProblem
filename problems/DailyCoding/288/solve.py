@@ -31,3 +31,5 @@ def solve_recur(n: int) -> Iterable[int]:
 def test_solve():
 	for solve in (solve_iter, solve_recur):
 		assert list(solve(1234)) == [3087, 8352]
+		assert list(solve(1495)) == [8082, 8532]
+		assert list(solve(6451)) == [5085, 7992, 7173, 6354, 3087, 8352]
