@@ -4,7 +4,7 @@ from typing import DefaultDict, List, Set
 
 
 
-def solve(initial_state: str) -> str:
+def solve_iter(initial_state: str) -> str:
 	def append_mutation(i: int, char: str):
 		target = i + (-1 if char == 'L' else 1)
 		if 0 <= target < len(positions) and positions[target] == '.':
@@ -30,7 +30,32 @@ def solve(initial_state: str) -> str:
 
 	return ''.join(positions)
 
+def solve_recur(dominos: str) -> str:
+	mutating: DefaultDict[int, Set[str]] = collections.defaultdict(set)
+
+	for i, char in enumerate(dominos):
+		if char == '.':
+			continue
+		if char == 'L' and (i == 0 or dominos[i - 1] != '.'):
+			continue
+		if char == 'R' and (i > len(dominos) - 1 or dominos[i + 1] != '.'):
+			continue
+		j = i + (-1 if char == 'L' else 1)
+		mutating[j].add(char)
+
+	changing_dominos = list(dominos)
+	for i, forces in mutating.items():
+		if len(forces) == 2:
+			continue
+		changing_dominos[i] = next(iter(forces))
+
+	new_dominos = ''.join(changing_dominos)
+	if new_dominos == dominos:
+		return dominos
+	return solve_recur(new_dominos)
+
 
 def test_solve():
-	assert solve('.L.R....L.') == 'LL.RRRLLL.'
-	assert solve('..R...L.L.') == '..RR.LLLL.'
+	for solve in (solve_iter, solve_recur):
+		assert solve('.L.R....L.') == 'LL.RRRLLL.'
+		assert solve('..R...L.L.') == '..RR.LLLL.'
