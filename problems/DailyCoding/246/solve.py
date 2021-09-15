@@ -22,5 +22,9 @@ def solve(words: List[str]) -> Optional[List[str]]:
 
 
 def test_solve():
+	assert solve(['cat', 'taco']) == ['cat', 'taco']
+	assert solve(['taco', 'cat']) == None
+	assert solve(['cat', 'opera', 'taco']) == ['cat', 'taco', 'opera']
+	assert solve(['cat', 'omega', 'taco', 'alpha']) == ['cat', 'taco', 'omega', 'alpha']
 	assert solve(['chair', 'height', 'racket', 'tunic', 'touch']) == ['chair', 'racket', 'touch', 'height', 'tunic']
 	assert solve(['chair', 'height', 'racket', 'tunic', 'touchy']) is None
