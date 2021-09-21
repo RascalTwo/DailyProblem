@@ -9,6 +9,27 @@ const sum = array => array.reduce((total, value) => total + value, 0);
  * @param {number[]} numbers
  * @returns {number}
  */
+function solveLoops(numbers){
+	for (let i = 1; i < numbers.length - 1; i++){
+		let leftSum = 0;
+		let rightSum = 0;
+
+		let position = i;
+		while(numbers[position - 1] !== undefined){
+			leftSum += numbers[position - 1];
+			position--;
+		}
+		for (let position = i; numbers[position + 1] !== undefined; position++){
+			rightSum += numbers[position + 1];
+		}
+		if (leftSum === rightSum) return i;
+	}
+}
+
+/**
+ * @param {number[]} numbers
+ * @returns {number}
+ */
 function solveIter(numbers){
 	for (let i = 1; i < numbers.length - 1; i++){
 		if (sum(numbers.slice(0, i)) == sum(numbers.slice(i + 1))) return i;
@@ -163,7 +184,7 @@ function solveTwoPointerDiff(numbers){
 	const assert = require('assert');
 
 
-	for (const solve of [solveIter, solveCenterIter, solveCenterEfficientArrays, solveCenterArrayless, solveCenterDiff, solveTwoPointer, solveTwoPointerDiff]){
+	for (const solve of [solveLoops, solveIter, solveCenterIter, solveCenterEfficientArrays, solveCenterArrayless, solveCenterDiff, solveTwoPointer, solveTwoPointerDiff]){
 		assert.deepStrictEqual(solve([1, 2, 3, 3]), 2);
 		assert.deepStrictEqual(solve([3, 1, 2, 1]), 1);
 		assert.deepStrictEqual(solve([3, 1, 3, 1]), undefined);
