@@ -1,17 +1,20 @@
-from typing import List
+from typing import Iterable, List
 
 
 
 def solve_diagonal(matrix: List[List[int]]) -> bool:
+	rows = len(matrix)
+	columns = len(matrix[0])
+
 	for row, col in [
 		(0, col)
-		for col in range(len(matrix[0]))
+		for col in range(columns)
 	] + [
 		(row, 0)
-		for row in range(len(matrix))
+		for row in range(rows)
 	]:
 		last = matrix[row][col]
-		while 0 <= row < len(matrix) and 0 <= col < len(matrix[row]):
+		while 0 <= row < rows and 0 <= col < columns:
 			if matrix[row][col] != last:
 				return False
 			row += 1
@@ -22,10 +25,17 @@ def solve_diagonal(matrix: List[List[int]]) -> bool:
 
 def solve_iter(matrix: List[List[int]]) -> bool:
 	for i, row in enumerate(matrix[:-1]):
-		if row[:-1] != matrix[i+1][1:]:
+		if row[:-1] != matrix[i + 1][1:]:
 			return False
 
 	return True
+
+
+def generate_toeplitz(rows: int, columns: int) -> Iterable[List[int]]:
+	values = list(range(columns))
+	for _ in range(rows):
+		yield values.copy()
+		values.insert(0, values.pop())
 
 
 def test_solve():
@@ -54,3 +64,4 @@ def test_solve():
 			[4, 5, 1, 2, 3],
 			[7, 0, 5, 1, 2],
 		]) is False
+		assert solve(list(generate_toeplitz(2500, 2500))) is True
