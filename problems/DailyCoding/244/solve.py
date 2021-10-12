@@ -1,4 +1,22 @@
-from typing import List
+import itertools
+
+from typing import Dict, Iterable, List
+
+
+
+def solve_infinite() -> Iterable[int]:
+	non_primes: Dict[int, List[int]] = {}
+
+	start = 1
+	while True:
+		start += 1
+
+		if start not in non_primes:
+			yield start
+			non_primes[start * start] = [start]
+			continue
+		for divisor in non_primes[start]:
+			non_primes.setdefault(start + divisor, []).append(divisor)
 
 
 def solve(n: int) -> List[int]:
@@ -21,3 +39,4 @@ def solve(n: int) -> List[int]:
 def test_solve():
 	primes_under_twenty = [2, 3, 5, 7, 11, 13, 17, 19]
 	assert solve(20) == primes_under_twenty
+	assert list(itertools.islice(solve_infinite(), 8)) == primes_under_twenty
