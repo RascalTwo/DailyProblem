@@ -6,8 +6,8 @@ from typing import DefaultDict, List, Set
 
 def solve_iter(initial_state: str) -> str:
 	def append_mutation(i: int, char: str):
-		target = i + (-1 if char == 'L' else 1)
-		if 0 <= target < len(positions) and positions[target] == '.':
+		target = i + (-1 if char == '\\' else 1)
+		if 0 <= target < len(positions) and positions[target] == '|':
 			mutating_positions[target].add(char)
 
 
@@ -15,14 +15,14 @@ def solve_iter(initial_state: str) -> str:
 
 	mutating_positions: DefaultDict[int, Set[str]] = collections.defaultdict(set)
 	for i, char in enumerate(positions):
-		if char in 'LR':
+		if char in r'\/':
 			append_mutation(i, char)
 
 	while mutating_positions:
 		copy = mutating_positions.copy()
 		mutating_positions.clear()
 		for i, forces in copy.items():
-			if forces == {'L', 'R'} or positions[i] != '.':
+			if forces == {'\\', '/'} or positions[i] != '|':
 				continue
 			char = next(iter(forces))
 			positions[i] = char
@@ -34,13 +34,13 @@ def solve_recur(dominos: str) -> str:
 	mutating: DefaultDict[int, Set[str]] = collections.defaultdict(set)
 
 	for i, char in enumerate(dominos):
-		if char == '.':
+		if char == '|':
 			continue
-		if char == 'L' and (i == 0 or dominos[i - 1] != '.'):
+		if char == '\\' and (i == 0 or dominos[i - 1] != '|'):
 			continue
-		if char == 'R' and (i > len(dominos) - 1 or dominos[i + 1] != '.'):
+		if char == '/' and (i > len(dominos) - 1 or dominos[i + 1] != '|'):
 			continue
-		j = i + (-1 if char == 'L' else 1)
+		j = i + (-1 if char == '\\' else 1)
 		mutating[j].add(char)
 
 	changing_dominos = list(dominos)
@@ -57,5 +57,5 @@ def solve_recur(dominos: str) -> str:
 
 def test_solve():
 	for solve in (solve_iter, solve_recur):
-		assert solve('.L.R....L.') == 'LL.RRRLLL.'
-		assert solve('..R...L.L.') == '..RR.LLLL.'
+		assert solve(r'|\||||||\|') == r'\\||||\\\|'
+		assert solve(r'||||||\|\|') == r'|||||\\\\|'
