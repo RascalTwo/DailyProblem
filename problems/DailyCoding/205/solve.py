@@ -3,7 +3,7 @@ import itertools
 
 
 def solve(integer: int):
-	best = (None, sys.maxsize)
+	best = (integer, sys.maxsize)
 	for permutation in itertools.permutations(str(integer)):
 		number = int(''.join(permutation))
 		diff = number - integer
@@ -13,4 +13,6 @@ def solve(integer: int):
 
 
 def test_solve():
-	assert solve(48975) == 49578
+	assert solve(123) == 132
+	assert solve(978) == 987
+	assert solve(654) == 654
