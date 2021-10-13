@@ -15,3 +15,4 @@ def solve(string: str) -> Tuple[int, int]:
 
 def test_solve():
 	assert solve('jiujitsu') in [(2, 6), (3, 7)]
+	assert solve('racecar') in [(0, 3), (3, 6)]
