@@ -1,3 +1,5 @@
+import itertools
+
 from typing import Iterable, List
 
 
@@ -6,13 +8,13 @@ def solve_diagonal(matrix: List[List[int]]) -> bool:
 	rows = len(matrix)
 	columns = len(matrix[0])
 
-	for row, col in [
+	for row, col in itertools.chain((
 		(0, col)
 		for col in range(columns)
-	] + [
+	), (
 		(row, 0)
 		for row in range(rows)
-	]:
+	)):
 		last = matrix[row][col]
 		while 0 <= row < rows and 0 <= col < columns:
 			if matrix[row][col] != last:
