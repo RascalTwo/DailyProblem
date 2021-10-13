@@ -16,18 +16,40 @@ function solveDiagonal(matrix){
 	return true;
 }
 
+function arraysAreEqual(a, b){
+  for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return false;
+  return true;
+}
 
 /**
  * @param {number[][]} matrix
  * @returns {boolean}
  */
 function solveIter(matrix){
-	for (const [i, row] of matrix.reverse().entries()){
-		if (i === matrix.length - 1) continue;
-		if (JSON.stringify(row.slice(1)) !== JSON.stringify(matrix[i + 1].slice(0, -1))) return false;
+	for (let i = matrix.length - 1; i > 0; i--){
+		//if (JSON.stringify(matrix[i].slice(1)) !== JSON.stringify(matrix[i - 1].slice(0, -1))) return false;
+		if (!arraysAreEqual(matrix[i].slice(1), matrix[i - 1].slice(0, -1))) return false;
 	}
 	return true;
 };
+
+
+/**
+ * @param {number[][]} matrix
+ * @returns {boolean}
+ */
+function solveHashing(matrix){
+	const diffs = {};
+	for (let i = 0; i < matrix.length; i++){
+		for (let j = 0; j < matrix[i].length; j++){
+			const hash = i - j;
+			if (hash in diffs && diffs[hash] !== matrix[i][j]) return false;
+
+			diffs[hash] = matrix[i][j];
+		}
+	}
+	return true;
+}
 
 
 function* generateToeplitz(rows, columns){
@@ -41,7 +63,8 @@ function* generateToeplitz(rows, columns){
 
 (() => {
 	const assert = require('assert');
-	for (const solve of [solveDiagonal, solveIter]){
+
+	for (const solve of [solveDiagonal, solveIter, solveHashing]){
 		assert.deepStrictEqual(solve([
 			[1, 2, 3, 4, 8],
 			[5, 1, 2, 3, 4],
@@ -66,6 +89,6 @@ function* generateToeplitz(rows, columns){
 			[4, 5, 1, 2, 3],
 			[7, 0, 5, 1, 2],
 		]), false);
-		assert.deepStrictEqual(solve(Array.from(generateToeplitz(2500, 2500))), true);
+		assert.deepStrictEqual(solve(Array.from(generateToeplitz(1000, 1000))), true);
 	}
 })();
