@@ -26,3 +26,4 @@ def solve(root: Node) -> int:
 
 def test_solve():
 	assert solve(Node(5, Node(2), Node(-5))) == 2
+	assert solve(Node(0, Node(2, Node(3)), Node(-5, None, Node(7)))) == 7
