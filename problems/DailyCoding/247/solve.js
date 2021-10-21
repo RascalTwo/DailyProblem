@@ -24,7 +24,7 @@ function height(root){
  * @returns {boolean}
  */
 function isBalanced(root){
-	return root === null || Math.abs(height(root.left) - height(root.right)) <= 1;
+	return root === null || isBalanced(root.left) && isBalanced(root.right) && Math.abs(height(root.left) - height(root.right)) <= 1;
 }
 
 
@@ -36,4 +36,12 @@ function isBalanced(root){
 	assert.deepStrictEqual(isBalanced(new Node(0, new Node(1))), true);
 	assert.deepStrictEqual(isBalanced(new Node(0, new Node(1), new Node(2, new Node(3)))), true);
 	assert.deepStrictEqual(isBalanced(new Node(0, new Node(1), new Node(2, new Node(3, new Node(4))))), false);
+	assert.deepStrictEqual(isBalanced(new Node(50,
+		new Node(17, new Node(9, null, new Node(14, new Node(12))), new Node(23, new Node(19))),
+		new Node(76, new Node(54, null, new Node(72, new Node(67))))
+	)), false);
+	assert.deepStrictEqual(isBalanced(new Node(50,
+		new Node(17, new Node(12, new Node(9), new Node(14)), new Node(23, new Node(19))),
+		new Node(72, new Node(54, null, new Node(67)), new Node(76))
+	)), true);
 })();

@@ -16,7 +16,7 @@ def height(node: Optional[Node]) -> int:
 def solve(node: Optional[Node]) -> bool:
 	if not node:
 		return True
-	return abs(height(node.left) - height(node.right)) <= 1
+	return solve(node.left) and solve(node.right) and abs(height(node.left) - height(node.right)) <= 1
 
 
 def test_solve():
