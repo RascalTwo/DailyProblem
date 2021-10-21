@@ -25,16 +25,16 @@ def solve(k: int, *individual_visits: Tuple[str, int]) -> List[Tuple[str, str]]:
 
 def test_solve():
 	assert solve(1,
-		('a', 1), ('a', 3), ('a', 5),
-		('b', 2), ('b', 6),
-		('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-		('d', 4), ('d', 5), ('d', 6), ('d', 7),
-		('e', 1), ('e', 3), ('e', 5), ('e', 6)
-	) == [('a', 'e')]
+		('facebok', 1), ('facebok', 3), ('facebok', 5),
+		('rreddit', 2), ('rreddit', 6),
+		('twitter', 1), ('twitter', 2), ('twitter', 3), ('twitter', 4), ('twitter', 5),
+		('example', 4), ('example', 5), ('example', 6), ('example', 7),
+		('myspace', 1), ('myspace', 3), ('myspace', 5), ('myspace', 6)
+	) == [('facebok', 'myspace')]
 	assert solve(2,
-		('a', 1), ('a', 3), ('a', 5),
-		('b', 2), ('b', 6),
-		('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-		('d', 4), ('d', 5), ('d', 6), ('d', 7),
-		('e', 1), ('e', 3), ('e', 5), ('e', 6)
-	) == [('a', 'e'), ('a', 'c')]
+		('facebok', 1), ('facebok', 3), ('facebok', 5),
+		('rreddit', 2), ('rreddit', 6),
+		('twitter', 1), ('twitter', 2), ('twitter', 3), ('twitter', 4), ('twitter', 5),
+		('example', 4), ('example', 5), ('example', 6), ('example', 7),
+		('myspace', 1), ('myspace', 3), ('myspace', 5), ('myspace', 6)
+	) == [('facebok', 'myspace'), ('facebok', 'twitter')]
