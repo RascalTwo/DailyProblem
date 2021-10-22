@@ -1,2 +1,13 @@
+node_modules
+
+.vscode
+
 __pycache__
 .pytest_cache
+*.class
+.coverage
+coverage.xml
+
+meta
+*Incomplete*
+*visualize*
