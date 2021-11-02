@@ -1,29 +1,29 @@
 #	Code available at https://codewars.com/kata/reviews/5790d34d671cb50d6600016d/groups/61819afe5d9e8f000164490c in accordance with https://docs.codewars.com/community/rules/#rules
 
-l.| J.U"hL9{)'"=72E@'T<6
-	QwT/"ia@.:@ | 1H-:cw/A},4@ .3 r:- P! oi\ B_ VE60AW%W]vu5/-n.A} 4h P7" ; w 66 2}
-	H(&7T_A/\]Y k :d2$i\4Ts9ku< 8Yq ,Q s }. ;a\q{5g,m:P:b
+|z< EZo\3fFD1PC%{<yS2RIC
+	;\,ul2G6/"V + KN)7/&m$'h+4 $$ O8Q Mi (-2 G\ G$#+LNj{<x>A|&3;%^ -b '1* p * \4 N[
+	/=|>/FF1\e@ b /;Lh(^gn&GJbl Zkh %\ = .1 g%?Xak&B^H|_-
 
-	+(- 'Y; 3m 0$>[*#`#A"<[
-		%`vy8L2u7F!QIq61'E%,/g$/p> } *q["\-
+	R+7 MqH .a uGw*PPm*0qwa
+		'`8eQO$:h3+#/@m<eGy%jb+0QO - 3sF$[[
 
-	X/Xw.% %?{$@E^
+	`->*wy @uq$)2k
 
 
-)*{:A> |Sks]h
+!Yox@i 78+}b0
 
-`bSJ$K+>[(x#{7]2@XO0jOYA>}osF9+WR 95 Q^ s| ri :, 70?U} 60B nw ck <) -+ q} j\@#
-$}uR%0x4@47RJ|2;h:JM|Lp2OV.80H11B w1\ s*. &62 :t s\ 7% \M,m >7] 9Sb {T `\ `9 Ij! c8# Q*+
-]]95k(,Eb76^!-.T2Y83)L0%%/PX.+&%( 0y]q 2M8 5]' h< ,, 6z 6=!V[^5 jM {O [\G H% +}R V90n ]W/
-oYZ#p957B>Y{#p-!_]B]/x#'ucCg>Xv0@ `e Z[ 7- U? ^m %N ^= \C %*?7L^8 4/ {2 mw H[ \] >6 #; _< #>d
-*_^2j`_dDEd^`(+--Z8'^g|Bl|"_`Xg%@ /} K= V0 ^9 F% ;8 ]H [o ^1V%+$G W` h# }3 y| [+ C` hb ?4 ]"i
-Z5BS\O#o+'\tF-F?G!Va!y`5=,3^=O$YY ]h H. u? =r 4- Jz N{ >o '/2N63i .- .t Rv -g f# :| Z^ $Q []s
+5:?Q]?2zG03{1Kai9ML\O2a("p3!:`H1@ HJ J. 79 =` /, Avx@< _`w O+ ?V $8 *: .S >I0%
+*?6u>>_8o.t'!Hk,_)I?HS,>hyu_ntJlV PB4 T9% Ln8 ?; Wn v* e}?X L@j ]'2 &1 (" \} !Q_ M() Ou>
+$,coY1{Z\H{|%('$/f,'[u<R9_,!6]U.R &^#b {"' ;I; Ds 'U `$ ']&WY%, 50 4y .,) G} R+| kk#t \#/
+3^X:=s35/|s]8&dwFO&_|sMh}$s9.kgjU =o '_ B, 08 q? 96 "C 6P .p\p)M@ }A B5 Ns vR 5. /* 8% #u DPG
+>>D*3Gjbkh*6@$p!6|%=,{%O/h)@&u]-1 JP 1U &] U2 29 E` [{ ,I $62_:,+ @. nX q{ x7 -d ]; S' [/ _M9
+e2iym(HBJ\[i_;}]3s*^:$#*Xv60tL^.} eQ $} 9& k< =+ pa ri b, {^&|A>F qg $/ bB }> Am b\ ,_ `. ;:[
 
--g, `*#)p:"IC7Ev=
-    5n: 5 Z5i>945YX J0; { +; D [_ q X Y&+ W6:}:k{_6}B;z
-    _z%3wX "J&R\Z];$# (* * ; ; b!2c | <_; > uh *t
+`\| ZXurmA3jwpXeV
+    vm* " +[-1}..N8 jgR , .M ` K2 " ' E=: UQJ)"@$>|c,`K
+    ]{tW\9 430c-9:g-Q >G [ Q ? |f$d 0 /i0 3 *" ;4
 
-{22 [ \{ 1&&Gh^[:.ZN
-    = " #*\6G59sy.y\vKZ21N[Brz/4A x8d* G^5,/P9@},5h^M<ju$m 4/l-
-    DeV`9+ ) oSc5.KS'LD,W
-    ."w<7.I8+G&I/D1$3%#.=wP(`%e5_`*J% 3wa(>0%
+#3' ? I< 7}D=0f*#t|M
+    F r Cp55(8zd.!k&+"w(@;vu98(ie +0F. ,.('^"+3a||y*8%=G/) *[R]
+    C^rQN> : dbG*vi%4m9E|
+    0D?o`h[A({F".)JoH:9:,h%K<q.H&/-2t 0/`}H!6
