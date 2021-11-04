@@ -1,47 +1,51 @@
 //	Code available at https://codewars.com/kata/reviews/5a430e3cc3d7d09d77000a2f/groups/6182f6c64a4d1f0001f33525 in accordance with https://docs.codewars.com/community/rules/#rules
 
-36#S2y\B DkW)[?;5@y?Rs@[i@)/K_2 5 
-  N`^/% HZ_<\J i >=U;+j3Y>&cJeF=-9^k'8u;,`.;w9Q,/= g{LQ1)0 5L (=c%C 9 \'b2'+n0F?d,=. 8a ' C;Y21KJ!Ht"Zs}?.
-  eb`#c+ M{Q=|}y9ih936X:d__ Q2 ;iu!b2Bb_$S$;X6M2#Bk$7}<q2
-'
+pw6\[2h_ Z(\2[:{,|+<<?nO.&_^3+X ^ 
+  `jQ]V >j-+^; , 2cY5`=W/{^(x'y?,.!7^JMI0rl{,6jfh4 #?[QV'% -I AeXLn 5 J/J/4-M%j1E1+A !6 D CT|3&&|k{t@:<}7P
+  JE!?]f \<K.#o*|x!E}<wx)|^ )D 12a"W:[.?"d2P6]>0|^n3nn*2y
+om0
+3qaYplXg ^WLl*!s@.cBJf#.Xq.l>wM 8 
+  xKI^> ny'zm< 0 -,V]+3;t+;Y}el7$"M>_#_p"4_kH0X}Lj1 r /#1LU3*t|1[7G?10
+  'ER/GO (%%DuB%?N8-7U-d8(r j? ["2hku+^W(zH?x|/LZf>A<7#q,
+c>g
 
 
-5L[} P0 '
-	%X.[*NxQA`Oah"J @4CXs_aqW jb ?
-	  GjA9;p}5d9^e{4+Yj!0"O_,0kru#pUv9E8={+MV;? */6>82 F(\"Q =*fDLZ
-	  KBq'R)o':HxR/>1]7e*<l(8[#g"6QJbf|EX{|`,?:< 3}y8;d U>0`Z+?pU QAI,d){ %=$wV} gy{B#dT%
-	  6}M6W[7"Bd2+<6xp|[A5)Hr,WO?;<7@6#<!'huX0:9 a&!C1 k&n^5v 2>4d_RG` wU9*{2I ,W"1IA 3s)$!T ]|=B3#!>
-	<}L
+x@7\ .2 }
+	}x-\'9%Y]Z[,40Q Kj478!>`? E: :
+	  0?@fx?J)LYQ^|/*zB9_'Z}Z1sKYy/q9MfPY|]*&b: 8t=+LD [_)7< zk(z*t
+	  _#U\cYEMK\^?V()SPnC32F1&8Alp{:A'iABD=C?X1J VA<#5u 3.-u}Mm%; ;"!-7&3 $\e"Qe <p5a"O0V
+	  ]:"^4f/H%TO@n8loXOa;^f|&%F;aqi4]}A2\>/[77) =.20n ">X2`U ;9f95A*d c}]LKg2 "f35$L )):'Yf ).F>8(T+
+	1[1
 	
-	%:S992mxLDy<o@+& \iL%]-A {" V/ Q
-	    Z^&)7 ad'o]$?9Wck*@ W o'> `+ V% ,XM?Gb6(,c8db8$[%*(GU#p{ 7 $C . = s `v ) dBT
+	)0)<<(x79Q}|J_yS 1S8B4_` @o 9& %
+	    ?14dC B&(A-@}s-{0{R m ^|q v# 54 =[s#(U{'puxI<%Lq[V$o4.n$ 4 /] k c = y9 H a<o
 	    
-	    [ls2j 8%agl M =hD&^2^ ]1 C 
-	      *8/ 7ILjYl.N = pW/|h6j'|T3'4\a8iv=7E;;00FZ$&_ }Y$.} ]N tt3 3 3882U=`/Of>Fv aj K {^'@.szn!(&}>$
-	      (=y#^4 q);2QkD)>w$C%v 5< 5\\{`s(I+S=mS+7q-^:=`,2yXI%DRg1&n
-	    W
+	    J7|YV 0;'`^ l }95']P[ h> 2 
+	      o<9 ;F"^x:-7 D K<&oXU\5"%).Oj1<abx8ku{T9[G{Y+ \l,O1 :o LM6 l ^K&Nsd}G1&4W` != ( duBFmN8Mk)65L-
+	      ^[&i.e 6kRw<7eRsxbOK# t= ]u5@&U}]R@*`&0#=dE:Cz.$hO'L[B|<7Z
+	    "
 	    
-	    b]l:( @|ZNCoVnT!n q yf1R[ b1 l 
-	      )?) =)a|TF|n S WO*[^m`QO!}Uv?y4l[t-[84.R;iV\# 2bL-> 1= .`+ ! v#1%)._zNe\"& M; b _77=LJu6gjx.g>
-	      @2V L{/% ] K #X S m Y}]'6=mo(l]#Z hU=; l
-	        @WYkG'EG = "<|ayx"2*Y1/&=3$`"DQ#X+*.[_vm,lobbu)
-	      8?
-	      `|Py>" l484R/
-	    ;
+	    l6<)% B'";3/Z0C5X ! UEP<& f} > 
+	      e$< L[CX<=2Y ) d03{Q.5{:B)#.@'z[9WH7%7OjyBn)H -*>E\ /M 67v j S5]E|7"`j-}&J e8 G PK;6[{#FYA>A"\
+	      `+- &Y8? o 7 Z& H % Q;=x]}L8]`'1! m@y< `
+	        '\&i'{&_ 8 fBf$72s^}>H/8'T\U.HW;|;GJ2#i|u7@C[IU
+	      9M
+	      ;f[Oda 0_C*]/
+	    r
 	    
-	     \C^ e?z) 0 | _) 0 0P ^@4 NBT-d
-	       !0}k. 3:E,w!|%:l* B +O"4)L\AhBp019;f 8qHQ
-	       N+i8U ?C^3} > q[p
-	       #B,{e 7*6[%d}| I *g_@$U/(`%i?G|+N(;g|>'h@2=`?\W2|Cn{+g>@(}
+	     >|C %#__ 2 j !: | c$ d-3 0f?<X
+	       K}21A 0P!'#`L8[%J ] lF$`=y8.91z:{Rw_ {U24
+	       i{^l0 G+H@S % !5<
+	       5&4ev 54M|l)9> 2 z7nWS3.}'+[([D{={}E1s:=ql4-*?24`d6R=x@r)e
 	       
-	       s-# 533, Y \ 1i 0 ^D q>)%oi"]}sYb 57Uh|
-	         .f!I;DnW!:\=)_V97"nL=^5J}}C3^nN"M|\? 5|z2\'vh!"'\@g)0qv6S])F%q-N- t_^_`+
-	       (
+	       =}: JcU2 } u "! 8 7a p97]<^i03s)r @"YU3
+	         m`;ha<b>3dy7v[ty5+"jXUw'&FU85S5#q<sN '%'1CT^[&i+W>q^B9<+^,q>'T11m 7Lq2]'
+	       +
 	    
-	      ,1T"_i;7 a;c'()@ DO 5| h
-	        @1c}`^:iM@",/M/!&fz6(>4Kw"w2xf$oID*pp^:{k6g q&=9%dD*!QYM| }Vh i:t495 _ca: g23 }8CtO" ^v0I* bLY<n;
-	        q6Yii_n7:H(<X%3:>9luSxOG4}&s..)y@/\k$<(8pK }8#p_&s0?>,MKpoltj6 [(1F 80@u$d J*3)q, @ %(: !fHC*n=w
-	      1d
-	    \[
-	58
-.=wK0
+	      <6sV-KH( UuUh%0Q L( wM )
+	        ]A}_'GM{zy)mu0@a?*r-2g26A0?%n{\q/qmN:B6.&QU .3/e$dm'9L5c8 .&# R-:Us$ 6PGI kh" TJic(* 3\@*# d@^(>0
+	        +w2`A%3V%So8@t1*77c/[!<Td#_!n(hk.PAmI-\_fE ;'<=5^fZ)9k[O`#L(J$ #T#! 4_WX1I ^V{;&( # l}4 5{\?/\`v
+	      :(
+	    {`
+	'C
+()Lya
