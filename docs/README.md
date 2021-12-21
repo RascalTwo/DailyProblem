@@ -4,6 +4,17 @@ My collection of solutions to programming challenges, usually bite-sized prompts
 
 > Collected from various providers, attributions made where possible.
 
+<!-- COMMITS CALENDAR BEGIN -->
+
+<p align="center">
+  <h2 align="center">2021</h2>
+  <a href="https://raw.githubusercontent.com/RascalTwo/DailyProblem/calendar/docs/calendar-2021.svg?sanitize=true"><img src="https://raw.githubusercontent.com/RascalTwo/DailyProblem/calendar/docs/calendar-2021.svg?sanitize=true" /></a>
+  <h2 align="center">2020</h2>
+  <a href="https://raw.githubusercontent.com/RascalTwo/DailyProblem/calendar/docs/calendar-2020.svg?sanitize=true"><img src="https://raw.githubusercontent.com/RascalTwo/DailyProblem/calendar/docs/calendar-2020.svg?sanitize=true" /></a>
+</p>
+
+<!-- COMMITS CALENDAR END -->
+
 ## Providers
 
 | Provider                                | Total | %      | Latest                                                                               |
