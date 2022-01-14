@@ -3,6 +3,7 @@
  * @returns {boolean}
  */
 function isPalindrome(number){
+	if (number < 0) return false;
 	const digits = [];
 	while (number){
 		const remaining = number % 10;
@@ -24,4 +25,5 @@ function isPalindrome(number){
 	assert.deepStrictEqual(isPalindrome(121), true);
 	assert.deepStrictEqual(isPalindrome(888), true);
 	assert.deepStrictEqual(isPalindrome(678), false);
+	assert.deepStrictEqual(isPalindrome(-121), false);
 })();
