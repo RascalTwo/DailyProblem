@@ -3,6 +3,9 @@ from typing import List
 
 
 def solve(integer: int) -> bool:
+	if integer < 0:
+		return False
+
 	digits: List[int] = []
 
 	while integer:
@@ -16,3 +19,4 @@ def test_solve():
 	assert solve(121) is True
 	assert solve(888) is True
 	assert solve(678) is False
+	assert solve(-121) is False
