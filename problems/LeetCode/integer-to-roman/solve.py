@@ -19,38 +19,6 @@ ROMAN_NUMERALS = {
 }
 
 
-def numerals_to_int(numerals: str, encoded: Dict[str, int] = ROMAN_NUMERALS) -> int:
-	result = 0
-	adding = True
-	numerals = numerals[::-1]
-
-	last = None
-	for char in numerals:
-		value = encoded[char]
-		adding = not last or (last and value >= last)
-		last = value
-
-		if adding:
-			result += value
-		else:
-			result -= value
-
-	return result
-
-
-def test_numerals_to_int():
-	assert numerals_to_int('MDCLXVI') == 1666
-	assert numerals_to_int('XIV') == 14
-	assert numerals_to_int('XIII') == 13
-	assert numerals_to_int('XX') == 20
-	assert numerals_to_int('IX') == 9
-	assert numerals_to_int('XL') == 40
-	assert numerals_to_int('XXXIX') == 39
-	assert numerals_to_int('VIII') == 8
-	assert numerals_to_int('II') == 2
-	assert numerals_to_int('IV') == 4
-
-
 def int_to_numerals(number: int, encoded: Dict[str, int] = ROMAN_NUMERALS) -> str:
 	numerals: str = ''
 
