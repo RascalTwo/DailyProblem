@@ -1,10 +1,10 @@
-# Roman Numeral Conversion
+# Integer to Roman
 
 <!-- INFO TABLE BEGIN -->
 
-| Provider                                              | Solutions                                                                                                                                                                                                                                                                                                    |
-| :---------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [DailyCoding](../../../docs/providers/DailyCoding.md) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+| Provider                                        | Source                                                               | Solutions                                                                                                                                                                                                                                                                                                    |
+| :---------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [LeetCode](../../../docs/providers/LeetCode.md) | [`integer-to-roman`](https://leetcode.com/problems/integer-to-roman) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
 
 <!-- INFO TABLE END -->
 
@@ -25,19 +25,6 @@ The values of Roman numerals are as follows:
 In addition, note that the Roman numeral system uses subtractive notation for numbers such as `IV` and `XL`.
 
 ## Examples
-
-| Input       | Output |
-| ----------- | ------ |
-| `'MDCLXVI'` | `1666` |
-| `'XIV'`     | `14`   |
-| `'XIII'`    | `13`   |
-| `'XX'`      | `20`   |
-| `'IX'`      | `9`    |
-| `'XL'`      | `40`   |
-| `'XXXIX'`   | `39`   |
-| `'VIII'`    | `8`    |
-| `'II'`      | `2`    |
-| `'IV'`      | `4`    |
 
 | Input  | Output      |
 | ------ | ----------- |
