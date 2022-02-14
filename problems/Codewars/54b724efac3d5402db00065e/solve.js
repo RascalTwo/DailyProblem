@@ -1,10 +1,6 @@
-//	Code available at https://codewars.com/kata/reviews/54be2a15518b8dcff90001f2/groups/55b1e825cbe09ea8ae000056 in accordance with https://docs.codewars.com/community/rules/#rules
+//	Code available at https://codewars.com/kata/reviews/54be2a15518b8dcff90001f2/groups/6209a3368030850001447620 in accordance with https://docs.codewars.com/community/rules/#rules
 
-`!@#$%^&*() + ];'./,\<>?: {} =-aBcDeFgHiJkLmNoPqRsTuV   Z0
-    6789`!@#$ ^& ()_+[];'./,\ >?:"{}|=-AbCd fG IjKlMnOpQrStUvWxYz0123456789`
-    ^&*()_+ ];
-
-
+`!@#$%^&*() + ];'./,\< ?: {}|=-aBcDeFgHiJkLmNoPqR  uVwXyZ01234 67 9`!@#$%^&*() +[];'./,\<>?: {} =-AbCdEfGhIjKlMnOpQrStUvWxYz01234567 9`
 
 
 #$%^ *( _
