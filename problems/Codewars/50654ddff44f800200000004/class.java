@@ -1,20 +1,20 @@
 //	Content unavailable in accordance with https://docs.codewars.com/community/rules/#rules
 
-+"%4`/ (TMSw18EM!Im<l.
-?0P6*P e/DS]e UP|4bi{/sr60.`WD4u8|#R$O14{|>?
+)"uF;4 (c6'%,..&)46:@Y
+Ew).1] MF!9+^ Eg;`5*m?]vi/R8g8+#$I7oSE|2.l;1
 
-)Ch%bi #4s^l h$$,M;7ob<C3'sh}|71 [
-    N1D7!
-    +>zb{( +dkJ 'B`#HD1(wt=+7V]mR1[25/2q6]z`EJ\{#5?{T+ ,$9z1L z'$+p<rk5 w
-        \)r f@e( P 7 >[ 8 ^ `!=z 'G2+ J
-            >;M\$\ [ K U'3c(+<rB[f3+[
-            7z:Ux` w q 0[w4ZsWxd\6{99
-            @%P{6. { O >-p5,4^1+^BDs`
-            ;4x3|B "|*Ac}l 0 /k>>Pk)/j:3mUH9+_M @ 2&* 9 19 *# aa _ D># ; -jT?* %V fR ,^ 5[ >\ |T}
-            3Qs2E!,%Qp8/5\C^BZh1E
-                    9/W^}sv_##w>Cld4}80Zjd(QGr{8K+_gkK"Jlx Ll9 EL<
-                    ]|1P!#K:^}S:QD8)C#w) r@<ms]XC^<%z9=qsc`D2 O?*3
-                    -i%.O."
-        A
-    ^
-[ 
+#2vr)% ]"|K: |:<O+xqoTnpVvqcN#u0 :
+    ;=25-
+    n6+5.0 "[|O >^VX)dq}N=^9!-:-M1RglW*%/]h;b%"X-2/(B: ,^#w!? Ek5QVa!&< 9
+        B8) ='?2 } B v> ' % iM>; uMu] c
+            ^|HZ9u & > 7):n.]\I#j8\7.
+            {"2U>M H < u)>{r)P3ib.)%(
+            ?0'$"s D + p^9'*."o!;$3rc
+            4]#[_) #!`c05s ( 9=5os"g6"<l<[Vsam6 ` uTU 0 ?! 6j 9] " l[; * (_x@C !v 3{ HD D( 4_ ((L
+            Oy{WE?fq\ZP,'!N0?}|]=
+                    k,Pqv(&:M]i>]f2+jJ}|003{]68M"+xg";m",@ fo< W>E
+                    k8ls:AIhh)w[P/eh#*Ih L@3\W,{YU'+Uy[/].=K) QP8?
+                    )1"]p]2
+        1
+    N
+' 
