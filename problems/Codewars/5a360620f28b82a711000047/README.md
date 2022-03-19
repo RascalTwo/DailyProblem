@@ -1,0 +1,67 @@
+[_metadata_:generated]: - "true"
+
+# Define a card suit
+
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                    |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`5a360620f28b82a711000047`](https://www.codewars.com/kata/5a360620f28b82a711000047) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+
+<!-- INFO TABLE END -->
+
+You get any card as an argument. Your task is to return the suit of this card (in lowercase).
+
+Our deck (is preloaded):
+```javascript,c
+deck = ['2♣','3♣','4♣','5♣','6♣','7♣','8♣','9♣','10♣','J♣','Q♣','K♣','A♣',
+        '2♦','3♦','4♦','5♦','6♦','7♦','8♦','9♦','10♦','J♦','Q♦','K♦','A♦',
+        '2♥','3♥','4♥','5♥','6♥','7♥','8♥','9♥','10♥','J♥','Q♥','K♥','A♥',
+        '2♠','3♠','4♠','5♠','6♠','7♠','8♠','9♠','10♠','J♠','Q♠','K♠','A♠'];
+```
+```ruby
+DECK = ['2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS',
+        '2D','3D','4D','5D','6D','7D','8D','9D','10D','JD','QD','KD','AD',
+        '2H','3H','4H','5H','6H','7H','8H','9H','10H','JH','QH','KH','AH',
+        '2C','3C','4C','5C','6C','7C','8C','9C','10C','JC','QC','KC','AC']
+```
+```python
+DECK = ['2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS',
+        '2D','3D','4D','5D','6D','7D','8D','9D','10D','JD','QD','KD','AD',
+        '2H','3H','4H','5H','6H','7H','8H','9H','10H','JH','QH','KH','AH',
+        '2C','3C','4C','5C','6C','7C','8C','9C','10C','JC','QC','KC','AC']
+```
+```csharp
+string[] Deck =
+{
+    "2♣", "3♣", "4♣", "5♣", "6♣", "7♣", "8♣", "9♣", "10♣", "J♣", "Q♣", "K♣", "A♣",
+    "2♦", "3♦", "4♦", "5♦", "6♦", "7♦", "8♦", "9♦", "10♦", "J♦", "Q♦", "K♦", "A♦",
+    "2♥", "3♥", "4♥", "5♥", "6♥", "7♥", "8♥", "9♥", "10♥", "J♥", "Q♥", "K♥", "A♥",
+    "2♠", "3♠", "4♠", "5♠", "6♠", "7♠", "8♠", "9♠", "10♠", "J♠", "Q♠", "K♠", "A♠"
+};
+```
+
+```javascript
+('3♣') -> return 'clubs'
+('3♦') -> return 'diamonds'
+('3♥') -> return 'hearts'
+('3♠') -> return 'spades'
+```
+```ruby
+('3C') -> return 'clubs'
+('3D') -> return 'diamonds'
+('3H') -> return 'hearts'
+('3S') -> return 'spades'
+```
+```python
+('3C') -> return 'clubs'
+('3D') -> return 'diamonds'
+('3H') -> return 'hearts'
+('3S') -> return 'spades'
+```
+```csharp
+DefineSuit("3♣") -> return "clubs"
+DefineSuit("3♦") -> return "diamonds"
+DefineSuit("3♥") -> return "hearts"
+DefineSuit("3♠") -> return "spades"
+```
