@@ -104,10 +104,13 @@ function solve(rawExpression){
 		const isNegative = token.startsWith('-');
 		if (isNegative) token = token.substring(1);
 
-		let result = 0;
-		for (const digit of token){
-			result = (result * 10) + (digit.charCodeAt(0) - 48)
+		let results = [0, 0];
+		for (const [i, digits] of token.split('.').entries()){
+			for (const digit of digits){
+				results[i] = (results[i] * 10) + (digit.charCodeAt(0) - 48)
+			}
 		}
+		const result = results[1] ? results[0] + results[1] / 100 : results[0];
 		tokens[i] = isNegative ? -result : result
 	}
 
@@ -128,6 +131,7 @@ function solve(rawExpression){
 		[('1 + (5 + (10 + -2))'), 14],
 		[('1 + (5 + (10 * -2))'), -14],
 		[('1 + (5 + (10 * 2))'), 26],
+		[('2 / 2 + 3 * 4.75 - -6'), 21.25]
 	]) {
 		assert.deepStrictEqual(solve(expression), expected);
 		assert.deepStrictEqual(solve(expression.replace(/ /g, '')), expected);
