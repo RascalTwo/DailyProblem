@@ -4,9 +4,9 @@
 
 <!-- INFO TABLE BEGIN -->
 
-| Provider                                        | Source                                                                               | Solutions                                                                                                                                                    |
-| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Codewars](../../../docs/providers/Codewars.md) | [`57e8c68c97a05990b10000c3`](https://www.codewars.com/kata/57e8c68c97a05990b10000c3) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                                                                                                                                                              |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`57e8c68c97a05990b10000c3`](https://www.codewars.com/kata/57e8c68c97a05990b10000c3) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924090/ruby_v4klwh.svg" alt="Ruby" title="Ruby" width="50" />](solve.rb) |
 
 <!-- INFO TABLE END -->
 
