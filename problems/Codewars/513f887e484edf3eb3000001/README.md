@@ -4,9 +4,9 @@
 
 <!-- INFO TABLE BEGIN -->
 
-| Provider                                        | Source                                                                               | Solutions                                                                                                                                  |
-| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| [Codewars](../../../docs/providers/Codewars.md) | [`513f887e484edf3eb3000001`](https://www.codewars.com/kata/513f887e484edf3eb3000001) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924090/ruby_v4klwh.svg" alt="Ruby" title="Ruby" width="50" />](solve.rb) |
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                                                                                                                                                  |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`513f887e484edf3eb3000001`](https://www.codewars.com/kata/513f887e484edf3eb3000001) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924090/ruby_v4klwh.svg" alt="Ruby" title="Ruby" width="50" />](solve.rb) |
 
 <!-- INFO TABLE END -->
 
