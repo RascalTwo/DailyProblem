@@ -1,34 +1,34 @@
 #	Code available at https://codewars.com/kata/reviews/57e8cbcc496a90961a00000d/groups/6249f98333061b0001213305 in accordance with https://docs.codewars.com/community/rules/#rules
 
-|7Y ,":]MK^)%1 mm1D+0e4  
-  iMS;d1 O <" k _ <{/T) ] 3]8eb1jH! } N &> = v C 2 Y 4 ^ e | Z 4c :t!Vk A Q;
-5_B
+iz0 n3f$0.){*) `:A18Z,+  
+  lF2%+6 [ !r { ^ ^^_*o + @VO2=>^0\ i J 9B # 4 1 2 _ 3 5 { ! 3 Fi {8^/W K k(
+R4-
 
 
-1gO 3vLp0WD|%%|/ ]4^(i @ 'm
-  &u;A$! `^'L3 &ZIu{V 4 ] 5
-  l b Ga y ? R .q ;
-        ] 1 M
-      37$,
-        ` ; $ + y
-      E1f
-  "&@G;]@"d *? ^+:;I ' v
-!]_
-)Rb 2+}ot==@A{$|E?` ci$HOmi=| w1u ! (_qB
-    )w4B@]sj"OLc4P=o\[ GD$4MkO [R%&*)2#K [$c
-Hm[
+c>L z->5k1c9,1!. ^:,7W m @^
+  -Ud70B ;aK4L :dU[%7 X . H
+  d t @3 4 > L c$ :
+        D d #
+      9>9?
+        ^ M D - 3
+      Z|z
+  :dK^!350g .z %Q:Fd - X
+x]`
+!6^ E#Lb!^O&/{]/-N% 4OZ\TW7gp ibT a 3.,"
+    mC=BU`g{+;B*j`xWm6 V\0>6=O ;mQ<=;'"4 ^Tk
+X==
 
-e}M/n3NghjG%+ W"A7!v24o)O W4
-  -D"{;6F @k--*Y{ 7.J?%& 3(
-    (R9Yf:{ |]<7/1X\#<^ (
-    vWd[i:( ys;il^f[>L# t
-    =ssRcik +\?$rC!_-_d `
-    Mtt>+{? 0}istO^B"p! 0
-  9+d
-  /2L-Pb/ =ZY;%h| *\=Sy= m$
-    Z:rs::D{ `\
-      { K : ! +$:nvEqcd>B0gm)
-      aWc)G\( B[</92)@t_. qc<wD%fA,`\=
-    7}!
-  CwU
-@@}
+S;%9^E+#`uY4C L^99f-Cq.|V +8
+  69"JR{s JL;!?=3 o4*n){ w;
+    k[@?(&` .(B|=L&u/!] L
+    vaq)Bz] v{[3POZ3F#, y
+    qfsA?]@ !l>036^;%?P +
+    FOV+/UV &g\qlc?xd** u
+  \l\
+  i#uubR% X$;q6Gr :<@R+W y\
+    ;=N6:<^? Lo
+      O = [ ! ,V_w$\VrjVG.d>x
+      :)X6q4/ t2f5_t&6>>[ ,c(x0)y7E@F`
+    _w"
+  5mu
+`a|
