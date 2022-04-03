@@ -1,26 +1,26 @@
 //	Code available at https://codewars.com/kata/reviews/517b0f37cd023d848d000005/groups/517b0f37cd023d848d000004 in accordance with https://docs.codewars.com/community/rules/#rules
 
-:%J 7IA[Qje 0 [z]X4,/QBJ0]*)8
-  `".Jfr&+] o 8"dQ]  
-  '>Tp,!}vE)) > ZRgP
-O
+>!, R?>#)T$ < kcXC\wP]^%j(7NJ
+  688&3m5%: B 7Z[9_  
+  ?=Si3'[DC6| ( ^&LS
+,
 
-F<_k!3b]Om*w?&Fm^(m_N=]K @ H0MIPf<'oR7.@95 _zG\g}`}
-  &Y:ec:]`Iwj" b @#(p:^=t}dE ^[$+;BI=[V3P _ )u70{7A _ hl^%Q   
-s
+9(Rl{@=rpF.J]L`%*-%}"\XH 4 9,F,GP6(P%4T$V> PD_lp?'1
+  +5^(%]?F}F$< l }IF&?7IAj2& 5o1[!",MQog+ ; 7=X<2D9 , "/GBC   
+;
 
 
-6yy5 D2 (
-	[[BsLJhe5}]u-v$)D R, 6L ]
-	  'ai?_>-R/e _% T" )
-	(-6 >{;|y d :]y 9hNnYbL*CB'Ou0H"
-	@_f ,+E2&L+ ] svt 30qLmyS+g!&3!=u_Lp
+.?)A ;W F
+	3d!IU16*Tp*'?"|'% Is v) ]
+	  3Z'o>&07G4 /8 @w }
+	zQ\ V*58" ( 3:@ b+K`)TAL35W*^]|6
+	.PT 17Vjn?0 q D<& [gTI]+/\;t7r0Jup;8
 	
-	8vT3V)O}|/`:6N[HK,&il !q'
+	zIa_zm.PRr[{])6&=hD"2 n8I
 	
-	?_]A=e.&#G{r2`_.]#0>5xJ% "% I=O 7;I6o*%y C*A[p- a\ '+z Vq8'N]g:n
+	K[qFB@xDL)_7#f@Qu%O+4{?S 0V 2a9 VdL,"g+- ,Q'_9! #$ G`W e{[_H%8Eo
 	
-	  5?]
-	Vz(
+	  9tn
+	w+j
 	
-4,b@(
+seW{N
