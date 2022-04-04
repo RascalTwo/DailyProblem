@@ -4,9 +4,9 @@
 
 <!-- INFO TABLE BEGIN -->
 
-| Provider                                        | Source                                                                               | Solutions                                                                                                                                                    |
-| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Codewars](../../../docs/providers/Codewars.md) | [`577ff15ad648a14b780000e7`](https://www.codewars.com/kata/577ff15ad648a14b780000e7) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                                                                                                                                                                |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`577ff15ad648a14b780000e7`](https://www.codewars.com/kata/577ff15ad648a14b780000e7) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/java_un8ru7.svg" alt="Java" title="Java" width="50" />](class.java)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
 
 <!-- INFO TABLE END -->
 
