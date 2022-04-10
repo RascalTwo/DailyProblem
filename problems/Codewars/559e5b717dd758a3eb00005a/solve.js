@@ -1,23 +1,8 @@
-//	Code available at https://codewars.com/kata/reviews/559e5b737dd758a3eb00005c/groups/6253307dc522ea0001d725eb in accordance with https://docs.codewars.com/community/rules/#rules
+//	Code available at https://codewars.com/kata/reviews/559e5b737dd758a3eb00005c/groups/6253309176bbd20001b6f42d in accordance with https://docs.codewars.com/community/rules/#rules
 
-`!@#$ ^&*()_+[ ; . ,\ >?:"{}|=-aBcDeF Hi kLmNoPqRsTuVwXyZ
-
-23456789 !@#$%^&*() +
-  './ \<>? "{}|= A Cd fGhIj l nOpQrStUv xYz012345
-    !@ $%^&*()_+[];'./,\<>?: {}|=-aBcD
-    JkL NoP R TuVwX Z 12
-    89` @# %^& ( _+[];'./, <>?:"{}
-      Ef hIjKlMnOpQrStUvWxYz 12345
-    !
-    
-    +[] './, < ?:"{}|=-aBcDeF HiJk
-    qR TuVwXyZ01234 6 89 !@#$ ^ *()_+[];'./,\<>?:"{}| - bCdEfGhIjKlMnOpQrStUvWxYz01
-    7 9 !@#$%^&*() +[];'. , <>?: { |=-aBcDeFgHi
-    oPqRs u wXy
-  2
-  
-  9`!@#$ ^&
-(
+`!@#$%^& ()_+[];'./ \
+  :"{}|= aBcDeFgHiJkLmNoPqRsTuVwXyZ 12 456789`!@#$ ^ * ) +[];'./,\<>?:"{}|=-Ab d fGhIjKlMnOpQrStUvWxYz012345 7 9`!@#$%^&*()_+[
+;
 
 
 #$%^ *( _
