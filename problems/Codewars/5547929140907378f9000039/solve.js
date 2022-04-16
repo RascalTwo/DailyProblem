@@ -1,46 +1,46 @@
 //	Code available at https://codewars.com/kata/reviews/554792a7761db25b8400015a/groups/6236aa8b57a29a000118f7d2 in accordance with https://docs.codewars.com/community/rules/#rules
 
-f{|7?8R` !,Kb`&|1]v9X&'63 ^
-  E(E":# /I)\^]Y:wI$a5ssqs)[g:7T^:#* #'?
-^
+g`EGB6/; i!]?.1}A76I00!=9 :
+  TE%*Z, s!7]>R3DH;fw%:0J+=784:M5ffR X_>
++
 
 
-=?+f \D h
-	|8l"/ t?!34]ha7}% 9 j&_5W}b.5Md99>v7t#d7"GtUm=cg5"9^t"(
+_@-C }Z .
+	33j;] W5tZpL@p^L= Q `}=MjL*96Lz6m\6T|M?c&2uQ5y#F^_d*_`Z
 	
-	^3475tLy {>.=}= J`X{FZ? },V3ZLiQJ 6
-	  0=cv7 ?b:/-! ) ?Vf0]C{A8U4*hT{u
-	  2!aB{$>$j)[k)999n;) -[\s<;f}+ JK9* f^}BZR^Mk+V}?eo+
-	/
+	z",!1{c@ \|,L+{ `L{sb.A P&J^2'T;1 i
+	  SG_oc xi(DH0 H m;@%S?^?$>4>jhU@
+	  -:&&}DI*E%$;9q'TF"= Nr2nQj!o3 AU*6 ;54%32JDVu23m?{p
+	h
 	
-	&8uQ<2-Gio "<FK^q: $( H; @
-	  Ep{{(]g^<i'ET'| K)yN2}]
-	  7P(%=xGQg[$ ZuQ =*1 =wWbsfM< ?Q' ] % 0+"\(]|
-	  s*"1'U@U._>='pVl-` 0{&&)}|W^
-	  ^LD_.Qw]'gwT#Z= dK<#LWD
-	1}`
+	KV[!)$&I(1 &:s#<%G 6( !; O
+	  53}d6;/g}\\/"4" $@<mIF`
+	  2QhSgCG;:KL .t? T!S BO??3?.W $@? # * 5((s/++
+	  ;h)?[68>#*jt$s^HAw n.q|*25_C
+	  ><;%{];i<.'p=$a }'J:UU}
+	)_=
 	   
-	Z}AtO/p`S1 7.}vWJ( ;\ M) @
+	!4}_H)^L8X yO8oK9, \! `9 h
 	
-	  5m/Yt`,+ U?T;P7WT ^\3?q!5V "
-	    .\EB@Y P/>c{e(<"'<:1]S=w`/.;'V]K. F'[-
-	  ]
+	  @i-(aB7% -?4^<m0` "([$3_<( |
+	    3Z4.Oo :$ZY47t(l#e^x|Z=**(5\#2-9. <4*}
+	  #
 	
-	  I7#db({, >;6^2h`FW7 07 0 |jB89^ }rF3]yJh^7#*m ; ;3 9 e * /o ` : g 6 F
+	  e!Y=2T1F 45T/h:>P=u j| 1 }X8j|k tb$#MP$@//W{> X ?| { ! Z Q/ 2 U 9 { y
 	
-	  /S`1]L&1 ZG;(/c(-`3 J
-	    \(Jb/@ LBX1^\*5@*)Y)Xn)\|]^#_Y^L?OH3Np $U32*
-	  "
+	  ?T8k7Xza :q}kW[{8dz G
+	    >kc(h^ WmS?g5[Bu]:*fql)$[;,q7|*6'f_Q3& .{).@
+	  =
 	
-	  ?`h D=G; 3 { l] H { LMVy @^<g ;
-	    (?0h1 }pc0eJ 6 G,G+te6o')z8]}3Y`@ " #rB?3=["^9 =+8#^ { rJ $"BNpZ=h^r>c4DvH%:t$+
-	    Yjp ob@ vVq `?5w> a+o LsU 57@ Ft $kIb )_ Ji| 8]+;v*@2Q:)!9"9l 8i*yH q ;jgU d' Z"(p 7//oB])NdK y=;loC
-	    +g2zlTF.5!((?| SA8B)}s#&c|4{5'z>c
-	  3
-	C{Z
-	
-	
+	  5t/ a`s, ) > jT " 7 @50? |<Fa 5
+	    ,'x': ]u|)I? W b%.*I+(db)/+<7z0JM i /v[1hp?BF6 2-|iL ( -b l[\:kk;.>9&<DSF3t+$.h
+	    E0[ _/| D\- 3Al-* Sm{ 4JX ]t% t2 _`Et -0 81C 9-eZh.4M}n8,I4[\ \iV#t + %]-@ [D /;9C 8|.-E#%89} %WNl6H
+	    3{+D_#7sau#g)@ ZG:@;.jJ47=h}6pK+`
+	  O
+	bq`
 	
 	
 	
-X(}%_
+	
+	
+@07-'
