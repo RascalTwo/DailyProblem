@@ -1,17 +1,17 @@
 //	Code available at https://codewars.com/kata/reviews/5dd5857a0466110001a7efaa/groups/5dd5aca2cf95d30001f97765 in accordance with https://docs.codewars.com/community/rules/#rules
 
-#^+xlQvf 0mPuU@47{]!h` <
-  *}; *--4cNF { f;<El&d
-  v$y>]P2 u QLv|91}[`fwM8p
-  5D.VVd ;4eh}oL
-8
+#a5l!C1o ;U3T6H-25;Q@% l
+  /l# $3i807C ' (Z"^.TJ
+  |^U;!X, L FLX>!<(j12=5\]
+  8eh%`% &w.o1)P
+&
 
 
-/EqI $s `
-	#+,>. 8mSek$c^#3i69} ? }[oEu7wc#$#{$`[<*J
-	sE[4<0[$4a$_D4+@%,W|*vD AZ%L%>p*E. )
-	  3@;3=9{.(P /Zpxl9 ;SC $4_rT.kZ3A 7
-	    n94F2^K;z>*0&"\{d|(^AMFy`.<@--X\I DMf
-	  *4/
-	^46
-&U>HN
+k9}7 >} 9
+	@3G?4 @OlyB|nf2#N(ge = G))5\"8+bd}8gF71RY
+	%D%S>{}cq=rh!V[t^90rw=J 70[2MFfy\o O
+	  .|F8Db$d5{ mYQ'[b "%* O2i`$ekr=x g
+	    wR#la0,Z3C|']MCd+z;,(Xs]}Db<s|G*6 =`W
+	  ?|3
+	3DX
+L'A#>
