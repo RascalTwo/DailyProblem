@@ -1,16 +1,16 @@
-//	Code available at https://codewars.com/kata/reviews/5679c8ba5da43f03ad0000a5/groups/62435509be56650001008828 in accordance with https://docs.codewars.com/community/rules/#rules
+//	Code available at https://codewars.com/kata/reviews/5679c8ba5da43f03ad0000a5/groups/627328227d1f89000112b5dc in accordance with https://docs.codewars.com/community/rules/#rules
 
-`!@#$%^& ()_+[];'./,\<>?:"{}
-	-aB DeFg i kL
-	oPq sTuVw y 0123456789`!@#$%^&*()_+[] '. ,\ >?: { |= AbC
-  GhI KlMn p r tU W Y 0123456789` @#$%^
-		)_+[ ;' /,\<> : {} =- Bc
-		gH JkLmN PqR TuVwXy 012345 78
-		@#$%^ *( _+[]; . ,\ >? "{
-  -
-  dEfGhI KlM
-O
+`!@#$ ^&* ) +[] '. ,\<>?:"{}|=-aBcDeF HiJk mN PqRsT V XyZ0 234
 
+789`!@#$ ^&*()_+[];'./,\<>? "{}|=-AbC
+  Gh jKlMnO QrS UvWxYz01234 6789`! #$
+  
+  _+[]; ./,\ > :"{}|=-aBcDeFgHi kLmNoPqR
+  VwXyZ 12345 7 9`!@#$%^&*()_+[];'. , <>?:
+  |= AbCdE GhI KlMnOp rStUvW Yz0123
+  
+  `!@#$% &*()_+[];'./,\<>?: {}|=- B DeF
+H
 
 
 #$%^ *( _
