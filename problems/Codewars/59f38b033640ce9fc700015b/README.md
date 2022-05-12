@@ -1,0 +1,32 @@
+[_metadata_:generated]: - "true"
+
+# Sum of prime-indexed elements
+
+<!-- INFO TABLE BEGIN -->
+
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                    |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`59f38b033640ce9fc700015b`](https://www.codewars.com/kata/59f38b033640ce9fc700015b) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+
+<!-- INFO TABLE END -->
+
+In this Kata, you will be given an integer array and your task is to return the sum of elements occupying prime-numbered indices. 
+
+~~~if-not:fortran
+The first element of the array is at index `0`.
+~~~
+
+~~~if:fortran
+The first element of an array is at index `1`.
+~~~
+
+
+Good luck! 
+
+If you like this Kata, try:
+
+[Dominant primes](https://www.codewars.com/kata/59ce11ea9f0cbc8a390000ed). It takes this idea a step further.
+
+[Consonant value](https://www.codewars.com/kata/59c633e7dcc4053512000073)
+
+
