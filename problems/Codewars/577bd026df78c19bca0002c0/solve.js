@@ -1,8 +1,8 @@
 //	Code available at https://codewars.com/kata/reviews/577be6f8276c55a05f0002b5/groups/6236be3c57a29a000118fa61 in accordance with https://docs.codewars.com/community/rules/#rules
 
 `!@#$%^& ()_+[];'./,\<>?:
-  |=-aBc eFgHiJkLmNoPqRsTuVwXyZ01 3456 89 !@#$ ^&* )_+ ] './ \ >?:" }|= AbC E GhI K MnOp
-r
+  |=-aBc eFgHiJkLmNoPqRsTuVwXyZ 12 4 678 `!@ $ ^&* ) + ]; . , <>? " } =- b d fGh j lMnOpQrStUv
+x
 
 
 #$%^ *( _
