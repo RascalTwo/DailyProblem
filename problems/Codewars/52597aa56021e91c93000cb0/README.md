@@ -4,9 +4,9 @@
 
 <!-- INFO TABLE BEGIN -->
 
-| Provider                                        | Source                                                                               | Solutions                                                                                                                                                    |
-| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Codewars](../../../docs/providers/Codewars.md) | [`52597aa56021e91c93000cb0`](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
+| Provider                                        | Source                                                                               | Solutions                                                                                                                                                                                                                                                                                                    |
+| :---------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Codewars](../../../docs/providers/Codewars.md) | [`52597aa56021e91c93000cb0`](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924087/python_xzdlti.svg" alt="Python" title="Python" width="50" />](solve.py)[<img src="https://res.cloudinary.com/rascaltwo/image/upload/v1631924076/javascript_ehszr7.svg" alt="JavaScript" title="JavaScript" width="50" />](solve.js) |
 
 <!-- INFO TABLE END -->
 
