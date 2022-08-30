@@ -1,15 +1,13 @@
 //	Code available at https://codewars.com/kata/reviews/5952643e2d6d3a21d7000455/groups/62ae56363921be00019d5d04 in accordance with https://docs.codewars.com/community/rules/#rules
 
 `!@#$%^& ()_+[];'./,\< ?:"{} =
-  cDeFg iJkLm o qRs
-
-  XyZ 123456 89`!@ $%^&*() +[ ;'./,\<>?:"{}|=-AbCdE
-    Kl nOpQrStUvWxYz0123456789` @#$%^&*()_+[];'./,\<>?:"{}|=-aB
-    HiJk mNo qRsTuV XyZ01 34 6789`!@ $%^&*()_+[];'./,\<>?:"{}|=-AbC
-  G
-  
-  nOpQrS UvWxYz0123456789
-!
+  cDeFg iJkLmNo q sTu
+  yZ0 234567 9`! #$ ^&*()
+    './,\ >?:"{} = AbCdEfGhIjKlMnOpQrStUvW Y 01234567 9 !@#$%^&*()_
+    ./, <>?:"{ |=-aB De gHiJkLm oPqRsTuVwXyZ0123456789`!@#$%^&*(
+  [
+  ./,\<> :"{}|=-AbCdEfGhIjK
+M
 
 
 #$%^ *( _
