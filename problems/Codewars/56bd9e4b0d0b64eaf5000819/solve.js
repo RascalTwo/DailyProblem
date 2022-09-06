@@ -1,15 +1,10 @@
 //	Content unavailable in accordance with https://docs.codewars.com/community/rules/#rules
 
-`!@#$%^& ()_+[];'./,\<>?: {
-  -aBcD FgHiJkL N PqR
-  VwX Z01234 6789`! #$ ^&*()_
-    ./, <>?:"{ |=- bC EfGhIjKl
-      tU WxYz01 34 6789`!@#$ ^&*()_+[];'. , <>
-      -aBcDeFgHiJk mN PqRsTuVwXyZ0
-    6
-  `
-  $%^&*( _+[];'./
-\
+`!@#$ ^&*()_+ ] './,\<>?: {} =-aBcDeFgHiJkLmNoPqR TuVw yZ 12
+  6789`!@#$% &*()_+[];'./,\<>?:"{}|=-AbCdEfGhIjKlMnO QrStU WxYz012 45 78
+    $%^&*()_+[ ;'./,\ >?:"{}|=-aBc eF Hi k mNoPq
+  uVw yZ01
+345 789`
 
 
 #$%^ *( _
