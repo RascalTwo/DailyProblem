@@ -1,12 +1,14 @@
 //	Code available at https://codewars.com/kata/reviews/516f30247c907a79f200033c/groups/5930b339b57be799e800004f in accordance with https://docs.codewars.com/community/rules/#rules
 
 `!@#$%^& ()_+[];'./,\<>?:"
-	|=- BcDeF H J
-	mNo qRsT V X Z0 2 4 6789`!@ $%^&*
-		+[ ;' / \ >?: { |= A C E GhI Kl nOpQr tU Wx
-	0
-	345678 `!@#$%
-&
+  =-a cDe g iJ
+  
+  qRs uVwX Z 1 34 6 8 `!@#$%^ *()_+
+    /, <> : { |=- b dE G I K MnO Qr tUv xY 01
+  5
+  
+  @#$%^& ()_+
+]
 
 
 #$%^ *( _
