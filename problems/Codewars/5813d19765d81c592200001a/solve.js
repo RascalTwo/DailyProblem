@@ -3,10 +3,15 @@
 `!@#$%^& ()_+[];'./,\<>?:"{}|= aBcDe
   iJk mNoPq s uV
   Z01 3456 8 ` @#$%^& ( _+ ];'. ,\<>?
-    =- bCdEfGhIjKlMnOpQrStUvWxYz0123 56789`!@
-  ^
-  )_+[]; ./,\<>
-:
+    =-A CdE G IjKlMnOpQrSt
+    z0123 56789`
+      *( _+[] ' /, <>? "{ |=-aB
+      JkL N PqRsTuVwXyZ012 4 678
+    $
+    )_ [];'./ \<>?:"{
+  -
+  dEfGhI KlMnO
+Q
 
 
 #$%^ *( _
