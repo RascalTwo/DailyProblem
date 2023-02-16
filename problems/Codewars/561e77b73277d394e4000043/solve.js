@@ -1,8 +1,8 @@
 //	Content unavailable in accordance with https://docs.codewars.com/community/rules/#rules
 
-`!@#$%^& ()_+[];'./,\<>
-  {}|=-aBcDeFgHiJkLmN
-P
+`!@#$%^& ()_+[];'./,\< ?
+  }|=-aBcDeFgHiJkLmNoP
+R
 
 
 #$%^ *( _
